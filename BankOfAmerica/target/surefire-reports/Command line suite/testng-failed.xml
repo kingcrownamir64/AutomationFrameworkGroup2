@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="TestBoALocationsPage">
+        <methods>
+          <include name="initialize"/>
+          <include name="afterEachTestMethod"/>
+          <include name="testInternationLink"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- TestBoALocationsPage -->
+      <class name="TestBoAForgotCredentialsPage">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="initialize"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- TestBoAForgotCredentialsPage -->
+      <class name="TestBoAHome">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="testSearchSuggestion"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="cleanUp"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- TestBoAHome -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
