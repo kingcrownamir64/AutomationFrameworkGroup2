@@ -16,7 +16,7 @@ public class TestHomePage extends CommonAPI {
     //  Will navigate to the url before running all tests
 
     DataReader excelData = new DataReader();
-    String path ="/Users/amir/Desktop/BackupAutomationFramework/Amazon/src/test/resources/ExcelFile.xls";
+    String path ="/Users/amir/Desktop/AutomationFrameworkGroup2/Amazon/src/test/resources/ExcelFile.xls";
 
     @BeforeClass
     public void initialize() {
