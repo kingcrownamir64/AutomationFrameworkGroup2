@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d815f3b-bde3-4f7e-83bd-e8c44b2e28c5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/src/main/java/BoAHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/src/main/java/BoAHome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankOfAmerica/src/test/java/TestBoAHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/src/test/java/TestBoAHome.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/test/java/TestBoAHome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="122" selection-start-line="122" selection-end-line="122" />
+            <state relative-caret-position="288">
+              <caret line="189" column="28" selection-start-line="189" selection-start-column="28" selection-end-line="189" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -109,6 +108,7 @@
         <option value="$PROJECT_DIR$/Amazon/src/test/java/TestHomePage.java" />
         <option value="$PROJECT_DIR$/Costco.com/src/test/java/TestHomePage.java" />
         <option value="$PROJECT_DIR$/BankOfAmerica/src/main/java/BoAHome.java" />
+        <option value="$PROJECT_DIR$/BankOfAmerica/src/test/java/TestBoAHome.java" />
       </list>
     </option>
   </component>
@@ -135,7 +135,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="726" />
@@ -203,7 +203,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553761637548" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553803747166" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -346,7 +346,8 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="726" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="726" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -355,7 +356,7 @@
       <window_info id="Image Layers" order="4" />
       <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49882352" visible="true" weight="0.22940226" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.42113563" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.329653" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="2" weight="0.329653" />
       <window_info anchor="bottom" id="Version Control" order="3" />
@@ -769,8 +770,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/test/java/TestBoAHome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="122" selection-start-line="122" selection-end-line="122" />
+        <state relative-caret-position="288">
+          <caret line="189" column="28" selection-start-line="189" selection-start-column="28" selection-end-line="189" selection-end-column="28" />
         </state>
       </provider>
     </entry>
