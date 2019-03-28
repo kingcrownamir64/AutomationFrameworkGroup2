@@ -232,8 +232,8 @@ public class BoAHome extends CommonAPI{
     }
 
     public void clickSearchBar()throws Exception{
-        this.searchBar.click();
-        Thread.sleep(3000);
+        searchBar.click();
+        Thread.sleep(4000);
         String suggestionsSearch = suggestions.getText();
         Assert.assertEquals(suggestionsSearch, "Suggested searches");
     }
@@ -321,4 +321,6 @@ public class BoAHome extends CommonAPI{
         String contactUsTitle = driver.getTitle();
         Assert.assertEquals(contactUsTitle, "Bank of America Customer Service & Contact Numbers");
     }
+
+
 }
