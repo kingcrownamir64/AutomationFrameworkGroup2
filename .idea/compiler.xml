@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Amazon" />
         <module name="BankOfAmerica" />
+        <module name="Costco.com" />
         <module name="Costcocom" />
         <module name="Generic" />
         <module name="Github" />
