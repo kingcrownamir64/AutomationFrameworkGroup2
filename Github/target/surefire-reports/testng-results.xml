@@ -5,16 +5,16 @@
       <![CDATA[Extent Report Directory/Users/amir/Desktop/AutomationFrameworkGroup2/Github/target/surefire-reports/html]]>
     </line>
   </reporter-output>
-  <suite name="TestGithubHomePage" duration-ms="6393" started-at="2019-03-28T20:54:41Z" finished-at="2019-03-28T20:54:47Z">
+  <suite name="TestGithubHomePage" duration-ms="7471" started-at="2019-03-29T06:25:02Z" finished-at="2019-03-29T06:25:10Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="6393" started-at="2019-03-28T20:54:41Z" finished-at="2019-03-28T20:54:47Z">
+    <test name="Command line test" duration-ms="7471" started-at="2019-03-29T06:25:02Z" finished-at="2019-03-29T06:25:10Z">
       <class name="TestGithubHomePage">
-        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:TestGithubHomePage@617c74e5]" name="extentSetup" is-config="true" duration-ms="277" started-at="2019-03-28T16:54:41Z" finished-at="2019-03-28T16:54:41Z">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:TestGithubHomePage@36f6e879]" name="extentSetup" is-config="true" duration-ms="320" started-at="2019-03-29T02:25:02Z" finished-at="2019-03-29T02:25:02Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@31dadd46]]>
+                <![CDATA[org.testng.TestRunner@648c94da]]>
               </value>
             </param>
           </params>
@@ -24,7 +24,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestGithubHomePage@617c74e5]" name="setUp" is-config="true" duration-ms="1456" started-at="2019-03-28T16:54:41Z" finished-at="2019-03-28T16:54:42Z">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestGithubHomePage@36f6e879]" name="setUp" is-config="true" duration-ms="1505" started-at="2019-03-29T02:25:02Z" finished-at="2019-03-29T02:25:04Z">
           <params>
             <param index="0">
               <value>
@@ -65,11 +65,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="initialize()[pri:0, instance:TestGithubHomePage@617c74e5]" name="initialize" is-config="true" duration-ms="4313" started-at="2019-03-28T16:54:42Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:TestGithubHomePage@36f6e879]" name="initialize" is-config="true" duration-ms="5722" started-at="2019-03-29T02:25:04Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@617c74e5]" name="startExtent" is-config="true" duration-ms="5" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@36f6e879]" name="startExtent" is-config="true" duration-ms="4" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <params>
             <param index="0">
               <value>
@@ -80,31 +80,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="FAIL" signature="TestAboutButton()[pri:0, instance:TestGithubHomePage@617c74e5]" name="TestAboutButton" duration-ms="410" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <exception class="org.openqa.selenium.WebDriverException">
+        <test-method status="FAIL" signature="TestAboutButton()[pri:0, instance:TestGithubHomePage@36f6e879]" name="TestAboutButton" duration-ms="20" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[unknown error: cannot determine loading status
-from disconnected: received Inspector.detached event
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
   (Session info: chrome=73.0.3683.86)
   (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.14.1 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mohammads-MacBook-Pro-4.local', ip: 'fe80:0:0:0:c30:131b:6071:2554%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.1', java.version: '1.8.0_131'
+System info: host: 'Mohammads-MacBook-Pro-4.local', ip: 'fd93:d19b:5c45:0:7db3:85fc:4e66:6da6', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.1', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/4t/056t6gvd665...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49978}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
-Session ID: 23275318614181cff3e9c7830346e2fe]]>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/4t/056t6gvd665...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54144}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: a0264d8cbad30f8a3bc157f461eb087d]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
-from disconnected: received Inspector.detached event
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
   (Session info: chrome=73.0.3683.86)
   (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.14.1 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mohammads-MacBook-Pro-4.local', ip: 'fe80:0:0:0:c30:131b:6071:2554%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.1', java.version: '1.8.0_131'
+System info: host: 'Mohammads-MacBook-Pro-4.local', ip: 'fd93:d19b:5c45:0:7db3:85fc:4e66:6da6', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.1', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/4t/056t6gvd665...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49978}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
-Session ID: 23275318614181cff3e9c7830346e2fe
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/4t/056t6gvd665...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54144}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: a0264d8cbad30f8a3bc157f461eb087d
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -156,40 +156,42 @@ Session ID: 23275318614181cff3e9c7830346e2fe
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestAboutButton -->
-        <test-method status="FAIL" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@617c74e5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="FAIL" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@36f6e879]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TestAboutButton status=FAILURE method=TestGithubHomePage.TestAboutButton()[pri:0, instance:TestGithubHomePage@617c74e5] output={null}]]]>
+                <![CDATA[[TestResult name=TestAboutButton status=FAILURE method=TestGithubHomePage.TestAboutButton()[pri:0, instance:TestGithubHomePage@36f6e879] output={null}]]]>
               </value>
             </param>
           </params>
           <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[no such window: window was already closed
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
   (Session info: chrome=73.0.3683.86)
   (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.14.1 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mohammads-MacBook-Pro-4.local', ip: 'fe80:0:0:0:c30:131b:6071:2554%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.1', java.version: '1.8.0_131'
+System info: host: 'Mohammads-MacBook-Pro-4.local', ip: 'fd93:d19b:5c45:0:7db3:85fc:4e66:6da6', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.1', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/4t/056t6gvd665...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49978}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
-Session ID: 23275318614181cff3e9c7830346e2fe]]>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/4t/056t6gvd665...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54144}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: a0264d8cbad30f8a3bc157f461eb087d]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
   (Session info: chrome=73.0.3683.86)
   (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.14.1 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mohammads-MacBook-Pro-4.local', ip: 'fe80:0:0:0:c30:131b:6071:2554%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.1', java.version: '1.8.0_131'
+System info: host: 'Mohammads-MacBook-Pro-4.local', ip: 'fd93:d19b:5c45:0:7db3:85fc:4e66:6da6', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.1', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/4t/056t6gvd665...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49978}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
-Session ID: 23275318614181cff3e9c7830346e2fe
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/4t/056t6gvd665...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54144}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: a0264d8cbad30f8a3bc157f461eb087d
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -247,467 +249,467 @@ Session ID: 23275318614181cff3e9c7830346e2fe
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="TestAtomButton()[pri:0, instance:TestGithubHomePage@617c74e5]" name="TestAtomButton" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestAtomButton -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@617c74e5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@617c74e5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="TestCareersButton()[pri:0, instance:TestGithubHomePage@617c74e5]" name="TestCareersButton" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCareersButton -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@617c74e5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@617c74e5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="TestBlogButton()[pri:0, instance:TestGithubHomePage@617c74e5]" name="TestBlogButton" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="TestBlogButton()[pri:0, instance:TestGithubHomePage@36f6e879]" name="TestBlogButton" duration-ms="3" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestBlogButton -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@617c74e5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@36f6e879]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@617c74e5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@617c74e5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@36f6e879]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@617c74e5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@36f6e879]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@617c74e5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="TestAtomButton()[pri:0, instance:TestGithubHomePage@36f6e879]" name="TestAtomButton" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAtomButton -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@36f6e879]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="TestCommunityForumButton()[pri:0, instance:TestGithubHomePage@617c74e5]" name="TestCommunityForumButton" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@36f6e879]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestCommunityForumButton -->
-        <test-method status="SKIP" signature="TestComparePlansButton()[pri:0, instance:TestGithubHomePage@617c74e5]" name="TestComparePlansButton" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="TestCareersButton()[pri:0, instance:TestGithubHomePage@36f6e879]" name="TestCareersButton" duration-ms="1" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCareersButton -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@36f6e879]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@36f6e879]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@36f6e879]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="TestComparePlansButton()[pri:0, instance:TestGithubHomePage@36f6e879]" name="TestComparePlansButton" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestComparePlansButton -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@617c74e5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="TestCommunityForumButton()[pri:0, instance:TestGithubHomePage@36f6e879]" name="TestCommunityForumButton" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCommunityForumButton -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@36f6e879]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@617c74e5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@36f6e879]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@36f6e879]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@36f6e879]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@617c74e5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="TestContactSalesButton()[pri:0, instance:TestGithubHomePage@617c74e5]" name="TestContactSalesButton" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestContactSalesButton -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@617c74e5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@617c74e5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="TestContactGithubButton()[pri:0, instance:TestGithubHomePage@617c74e5]" name="TestContactGithubButton" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="TestContactGithubButton()[pri:0, instance:TestGithubHomePage@36f6e879]" name="TestContactGithubButton" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestContactGithubButton -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@617c74e5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="TestContactSalesButton()[pri:0, instance:TestGithubHomePage@36f6e879]" name="TestContactSalesButton" duration-ms="1" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestContactSalesButton -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@36f6e879]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="TestCustomerStoriesButton()[pri:0, instance:TestGithubHomePage@617c74e5]" name="TestCustomerStoriesButton" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@36f6e879]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@36f6e879]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="TestCustomerStoriesButton()[pri:0, instance:TestGithubHomePage@36f6e879]" name="TestCustomerStoriesButton" duration-ms="1" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCustomerStoriesButton -->
-        <test-method status="SKIP" signature="TestContactSalesForInfoButton()[pri:0, instance:TestGithubHomePage@617c74e5]" name="TestContactSalesForInfoButton" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="TestContactSalesForInfoButton()[pri:0, instance:TestGithubHomePage@36f6e879]" name="TestContactSalesForInfoButton" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestContactSalesForInfoButton -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@617c74e5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@617c74e5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@617c74e5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@36f6e879]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@617c74e5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@617c74e5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@36f6e879]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="TestDeveloperAPIButton()[pri:0, instance:TestGithubHomePage@617c74e5]" name="TestDeveloperAPIButton" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@36f6e879]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="TestDeveloperAPIButton()[pri:0, instance:TestGithubHomePage@36f6e879]" name="TestDeveloperAPIButton" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestDeveloperAPIButton -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@617c74e5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@36f6e879]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@36f6e879]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="TestDropDownWhyButton()[pri:0, instance:TestGithubHomePage@617c74e5]" name="TestDropDownWhyButton" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="TestDropDownWhyButton()[pri:0, instance:TestGithubHomePage@36f6e879]" name="TestDropDownWhyButton" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestDropDownWhyButton -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@617c74e5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="TestElectronButton()[pri:0, instance:TestGithubHomePage@617c74e5]" name="TestElectronButton" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestElectronButton -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@617c74e5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@617c74e5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@36f6e879]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@617c74e5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@36f6e879]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="TestEnterprise2Button()[pri:0, instance:TestGithubHomePage@617c74e5]" name="TestEnterprise2Button" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@36f6e879]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="TestEnterprise2Button()[pri:0, instance:TestGithubHomePage@36f6e879]" name="TestEnterprise2Button" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestEnterprise2Button -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@617c74e5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@617c74e5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@617c74e5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="TestEnterpriseButton()[pri:0, instance:TestGithubHomePage@617c74e5]" name="TestEnterpriseButton" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="TestEnterpriseButton()[pri:0, instance:TestGithubHomePage@36f6e879]" name="TestEnterpriseButton" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestEnterpriseButton -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@617c74e5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@36f6e879]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="TestGithubTitle()[pri:0, instance:TestGithubHomePage@617c74e5]" name="TestGithubTitle" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@36f6e879]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@36f6e879]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="TestElectronButton()[pri:0, instance:TestGithubHomePage@36f6e879]" name="TestElectronButton" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestElectronButton -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@36f6e879]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="TestGithubTitle()[pri:0, instance:TestGithubHomePage@36f6e879]" name="TestGithubTitle" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestGithubTitle -->
-        <test-method status="SKIP" signature="TestFeatureButton()[pri:0, instance:TestGithubHomePage@617c74e5]" name="TestFeatureButton" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@36f6e879]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@36f6e879]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="TestFeatureButton()[pri:0, instance:TestGithubHomePage@36f6e879]" name="TestFeatureButton" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestFeatureButton -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@617c74e5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@617c74e5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@617c74e5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@36f6e879]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@617c74e5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="TestHelpButton()[pri:0, instance:TestGithubHomePage@617c74e5]" name="TestHelpButton" duration-ms="1" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestHelpButton -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@617c74e5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@36f6e879]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@617c74e5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@617c74e5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@36f6e879]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="TestOrStartAFreeTrialOfEnterpriseServerButton()[pri:0, instance:TestGithubHomePage@617c74e5]" name="TestOrStartAFreeTrialOfEnterpriseServerButton" duration-ms="1" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestOrStartAFreeTrialOfEnterpriseServerButton -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@617c74e5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@36f6e879]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="TestMarketplaceButton()[pri:0, instance:TestGithubHomePage@617c74e5]" name="TestMarketplaceButton" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="TestMarketplaceButton()[pri:0, instance:TestGithubHomePage@36f6e879]" name="TestMarketplaceButton" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestMarketplaceButton -->
-        <test-method status="SKIP" signature="TestPressButton()[pri:0, instance:TestGithubHomePage@617c74e5]" name="TestPressButton" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@36f6e879]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@36f6e879]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@36f6e879]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="TestHelpButton()[pri:0, instance:TestGithubHomePage@36f6e879]" name="TestHelpButton" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestHelpButton -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@36f6e879]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="TestPressButton()[pri:0, instance:TestGithubHomePage@36f6e879]" name="TestPressButton" duration-ms="1" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestPressButton -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@617c74e5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@36f6e879]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@617c74e5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@617c74e5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@617c74e5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@36f6e879]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@617c74e5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@36f6e879]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="TestPartnersButton()[pri:0, instance:TestGithubHomePage@617c74e5]" name="TestPartnersButton" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="TestOrStartAFreeTrialOfEnterpriseServerButton()[pri:0, instance:TestGithubHomePage@36f6e879]" name="TestOrStartAFreeTrialOfEnterpriseServerButton" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestOrStartAFreeTrialOfEnterpriseServerButton -->
+        <test-method status="SKIP" signature="TestPartnersButton()[pri:0, instance:TestGithubHomePage@36f6e879]" name="TestPartnersButton" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestPartnersButton -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@617c74e5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@36f6e879]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="TestPricingButton()[pri:0, instance:TestGithubHomePage@617c74e5]" name="TestPricingButton" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="TestPricingButton()[pri:0, instance:TestGithubHomePage@36f6e879]" name="TestPricingButton" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestPricingButton -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@617c74e5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@36f6e879]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="TestResourceButton()[pri:0, instance:TestGithubHomePage@617c74e5]" name="TestResourceButton" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="TestResourceButton()[pri:0, instance:TestGithubHomePage@36f6e879]" name="TestResourceButton" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestResourceButton -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@617c74e5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@617c74e5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@617c74e5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@36f6e879]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@617c74e5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@36f6e879]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@36f6e879]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="TestRobotLogoExists()[pri:0, instance:TestGithubHomePage@617c74e5]" name="TestRobotLogoExists" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@36f6e879]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="TestRobotLogoExists()[pri:0, instance:TestGithubHomePage@36f6e879]" name="TestRobotLogoExists" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestRobotLogoExists -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@617c74e5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@36f6e879]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@617c74e5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@617c74e5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@36f6e879]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="TestSearchBox()[pri:0, instance:TestGithubHomePage@617c74e5]" name="TestSearchBox" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@36f6e879]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="TestSearchBox()[pri:0, instance:TestGithubHomePage@36f6e879]" name="TestSearchBox" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestSearchBox -->
-        <test-method status="SKIP" signature="TestSearchBoxButton()[pri:0, instance:TestGithubHomePage@617c74e5]" name="TestSearchBoxButton" duration-ms="1" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@36f6e879]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="TestSearchBoxButton()[pri:0, instance:TestGithubHomePage@36f6e879]" name="TestSearchBoxButton" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestSearchBoxButton -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@617c74e5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@36f6e879]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@617c74e5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@617c74e5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@36f6e879]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="TestSetSignUpEmailBox()[pri:0, instance:TestGithubHomePage@617c74e5]" name="TestSetSignUpEmailBox" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestSetSignUpEmailBox -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@617c74e5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@617c74e5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@36f6e879]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="TestSecurityButton()[pri:0, instance:TestGithubHomePage@617c74e5]" name="TestSecurityButton" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="TestSecurityButton()[pri:0, instance:TestGithubHomePage@36f6e879]" name="TestSecurityButton" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestSecurityButton -->
-        <test-method status="SKIP" signature="TestSetSignUpUsernameBox()[pri:0, instance:TestGithubHomePage@617c74e5]" name="TestSetSignUpUsernameBox" duration-ms="3" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestSetSignUpUsernameBox -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@617c74e5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@617c74e5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@617c74e5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@36f6e879]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="TestSetSignUpPasswordBox()[pri:0, instance:TestGithubHomePage@617c74e5]" name="TestSetSignUpPasswordBox" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@36f6e879]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="TestSetSignUpEmailBox()[pri:0, instance:TestGithubHomePage@36f6e879]" name="TestSetSignUpEmailBox" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSetSignUpEmailBox -->
+        <test-method status="SKIP" signature="TestSetSignUpPasswordBox()[pri:0, instance:TestGithubHomePage@36f6e879]" name="TestSetSignUpPasswordBox" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestSetSignUpPasswordBox -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@617c74e5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@36f6e879]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@36f6e879]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@36f6e879]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@36f6e879]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="TestShopButton()[pri:0, instance:TestGithubHomePage@617c74e5]" name="TestShopButton" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@36f6e879]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@36f6e879]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="TestSetSignUpUsernameBox()[pri:0, instance:TestGithubHomePage@36f6e879]" name="TestSetSignUpUsernameBox" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSetSignUpUsernameBox -->
+        <test-method status="SKIP" signature="TestShopButton()[pri:0, instance:TestGithubHomePage@36f6e879]" name="TestShopButton" duration-ms="1" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestShopButton -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@617c74e5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@36f6e879]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@617c74e5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@36f6e879]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@617c74e5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@617c74e5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@36f6e879]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@617c74e5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="TestStatusButton()[pri:0, instance:TestGithubHomePage@617c74e5]" name="TestStatusButton" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestStatusButton -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@617c74e5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@36f6e879]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="TestSignUpButton()[pri:0, instance:TestGithubHomePage@617c74e5]" name="TestSignUpButton" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@36f6e879]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="TestSignUpButton()[pri:0, instance:TestGithubHomePage@36f6e879]" name="TestSignUpButton" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestSignUpButton -->
-        <test-method status="SKIP" signature="TestSignUpYourTeamButton()[pri:0, instance:TestGithubHomePage@617c74e5]" name="TestSignUpYourTeamButton" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="TestSignUpYourTeamButton()[pri:0, instance:TestGithubHomePage@36f6e879]" name="TestSignUpYourTeamButton" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestSignUpYourTeamButton -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@617c74e5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@36f6e879]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@617c74e5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="TestUsernameEmail()[pri:0, instance:TestGithubHomePage@617c74e5]" name="TestUsernameEmail" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestUsernameEmail -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@617c74e5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@617c74e5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="TestTrainingButton()[pri:0, instance:TestGithubHomePage@617c74e5]" name="TestTrainingButton" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="TestTrainingButton()[pri:0, instance:TestGithubHomePage@36f6e879]" name="TestTrainingButton" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestTrainingButton -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@617c74e5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@36f6e879]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@617c74e5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="TestUsernameEmail()[pri:0, instance:TestGithubHomePage@36f6e879]" name="TestUsernameEmail" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestUsernameEmail -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@36f6e879]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@617c74e5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="TestUsernamePassword()[pri:0, instance:TestGithubHomePage@617c74e5]" name="TestUsernamePassword" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestUsernamePassword -->
-        <test-method status="SKIP" signature="TestUsernameText()[pri:0, instance:TestGithubHomePage@617c74e5]" name="TestUsernameText" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestUsernameText -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@617c74e5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="cleanUp()[pri:0, instance:TestGithubHomePage@617c74e5]" name="cleanUp" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@617c74e5]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@617c74e5]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@36f6e879]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="generateReport()[pri:0, instance:TestGithubHomePage@617c74e5]" name="generateReport" is-config="true" duration-ms="0" started-at="2019-03-28T16:54:47Z" finished-at="2019-03-28T16:54:47Z">
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@36f6e879]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="TestStatusButton()[pri:0, instance:TestGithubHomePage@36f6e879]" name="TestStatusButton" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestStatusButton -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@36f6e879]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@36f6e879]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@36f6e879]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="TestUsernamePassword()[pri:0, instance:TestGithubHomePage@36f6e879]" name="TestUsernamePassword" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestUsernamePassword -->
+        <test-method status="SKIP" signature="cleanUp()[pri:0, instance:TestGithubHomePage@36f6e879]" name="cleanUp" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestGithubHomePage@36f6e879]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="TestUsernameText()[pri:0, instance:TestGithubHomePage@36f6e879]" name="TestUsernameText" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestUsernameText -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestGithubHomePage@36f6e879]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="generateReport()[pri:0, instance:TestGithubHomePage@36f6e879]" name="generateReport" is-config="true" duration-ms="0" started-at="2019-03-29T02:25:10Z" finished-at="2019-03-29T02:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->

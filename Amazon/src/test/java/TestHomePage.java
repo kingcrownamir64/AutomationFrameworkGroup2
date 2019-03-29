@@ -87,10 +87,8 @@ public class TestHomePage extends CommonAPI {
             }
             System.out.println(str);
         }
-<<<<<<< HEAD
 
 
-=======
     }    @Test(description = "mysql test")
     public void testSearchItemsSql() {
         List<String> list = null;
@@ -102,6 +100,5 @@ public class TestHomePage extends CommonAPI {
         for (String s : list) {
             homePage.searchForItems(s);
         }
->>>>>>> dummy
     }
 }
