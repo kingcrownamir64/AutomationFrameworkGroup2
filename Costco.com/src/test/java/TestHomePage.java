@@ -1,3 +1,4 @@
+import Datasource.MySqlData;
 import base.CommonAPI;
 import org.openqa.selenium.InvalidArgumentException;
 import org.openqa.selenium.support.PageFactory;
@@ -10,8 +11,11 @@ import reporting.TestLogger;
 import utility.DataReader;
 
 import java.io.IOException;
+import java.util.List;
 
 public class TestHomePage extends CommonAPI {
+    MySqlData mySqlData;
+
 
     String homepageUrl = "https://www.costco.com";
     HomePage homePage;
@@ -23,6 +27,7 @@ public class TestHomePage extends CommonAPI {
     public void initialize(){
         this.driver.navigate().to(this.homepageUrl);
         this.homePage = PageFactory.initElements(this.driver, HomePage.class);
+        mySqlData = new MySqlData();
     }
     //TEST 1
     @Test (priority = 1)
@@ -151,4 +156,18 @@ public class TestHomePage extends CommonAPI {
             System.out.println(str);
         }
     }
-}
+
+        @Test(description = "mysql test")
+        public void testSearchItemSql() {
+            List<String> list = null;
+            try {
+                list = mySqlData.getItemsListFromDB();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            for (String s : list) {
+                homePage.searchForItems(s);
+            }
+        }
+
+    }

@@ -1,4 +1,5 @@
 import base.CommonAPI;
+import datasource.MySqlData;
 import org.openqa.selenium.InvalidArgumentException;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
@@ -8,8 +9,11 @@ import org.testng.annotations.Test;
 import utility.DataReader;
 
 import java.io.IOException;
+import java.util.List;
 
 public class TestHomePage extends CommonAPI {
+    MySqlData mySqlData;
+
 
     String homepageUrl = "https://www.amazon.com/ref=ap_frn_logo";
     HomePage homePage;
@@ -22,6 +26,7 @@ public class TestHomePage extends CommonAPI {
     public void initialize() {
         this.driver.navigate().to(this.homepageUrl);
         this.homePage = PageFactory.initElements(this.driver, HomePage.class);
+        mySqlData = new MySqlData();
     }
 
     //  Tests if website is navigated to the homepage
@@ -81,6 +86,17 @@ public class TestHomePage extends CommonAPI {
                     throw new InvalidArgumentException("Invalid choice");
             }
             System.out.println(str);
+        }
+    }    @Test(description = "mysql test")
+    public void testSearchItemsSql() {
+        List<String> list = null;
+        try {
+            list = mySqlData.getItemsListFromDB();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        for (String s : list) {
+            homePage.searchForItems(s);
         }
     }
 }
