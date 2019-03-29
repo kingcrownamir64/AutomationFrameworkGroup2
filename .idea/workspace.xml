@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d815f3b-bde3-4f7e-83bd-e8c44b2e28c5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/Amazon-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/Amazon-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/TestHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/TestHomePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BankOfAmerica/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/BankOfAmerica-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/BankOfAmerica-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco.com/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Costco.com/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco.com/target/Costco.com-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Costco.com/target/Costco.com-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco.com/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Costco.com/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco.com/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Costco.com/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Github/target/Github-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Github/target/Github-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Github/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Github/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Github/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Github/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/main/java/BoAAppointmentPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="96" column="32" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="32" />
+            <state relative-caret-position="196">
+              <caret line="14" column="55" lean-forward="true" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,10 +36,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/test/java/TestBoAAppointmentPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
+            <state relative-caret-position="247">
               <caret line="68" column="5" lean-forward="true" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -76,6 +57,50 @@
                 <element signature="e#1920#1921#0" expanded="true" />
                 <element signature="e#2014#2015#0" expanded="true" />
                 <element signature="e#2033#2034#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/main/java/BoALoanCalculatorPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="107" column="53" lean-forward="true" selection-start-line="107" selection-start-column="53" selection-end-line="107" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/test/java/TestBoALoanCalculatorPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="67" column="53" lean-forward="true" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#767#768#0" expanded="true" />
+                <element signature="e#786#787#0" expanded="true" />
+                <element signature="e#893#894#0" expanded="true" />
+                <element signature="e#911#912#0" expanded="true" />
+                <element signature="e#1024#1025#0" expanded="true" />
+                <element signature="e#1065#1066#0" expanded="true" />
+                <element signature="e#1163#1164#0" expanded="true" />
+                <element signature="e#1182#1183#0" expanded="true" />
+                <element signature="e#1297#1298#0" expanded="true" />
+                <element signature="e#1338#1339#0" expanded="true" />
+                <element signature="e#1431#1432#0" expanded="true" />
+                <element signature="e#1450#1451#0" expanded="true" />
+                <element signature="e#1567#1568#0" expanded="true" />
+                <element signature="e#1629#1630#0" expanded="true" />
+                <element signature="e#1704#1705#0" expanded="true" />
+                <element signature="e#1723#1724#0" expanded="true" />
+                <element signature="e#1846#1847#0" expanded="true" />
+                <element signature="e#1907#1908#0" expanded="true" />
+                <element signature="e#2000#2001#0" expanded="true" />
+                <element signature="e#2017#2018#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -150,6 +175,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/BankOfAmerica/src/main/java/BoAAppointmentPage.java" />
         <option value="$PROJECT_DIR$/BankOfAmerica/src/test/java/TestBoAAppointmentPage.java" />
+        <option value="$PROJECT_DIR$/BankOfAmerica/src/test/java/TestBoALoanCalculatorPage.java" />
+        <option value="$PROJECT_DIR$/BankOfAmerica/src/main/java/BoALoanCalculatorPage.java" />
       </list>
     </option>
   </component>
@@ -169,7 +196,7 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="726" />
@@ -272,7 +299,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553841981277" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553848520701" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -300,22 +327,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestBoAAppointmentPage">
-    <configuration name="TestBoAAppointmentPage" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.&lt;default&gt; (1)">
+    <configuration name="TestBoALoanCalculatorPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BankOfAmerica" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestBoAAppointmentPage" />
+      <option name="MAIN_CLASS_NAME" value="TestBoALoanCalculatorPage" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBoAAppointmentPage.testClickSignIn" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestBoALoanCalculatorPage.testCalculatePayment" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BankOfAmerica" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestBoAAppointmentPage" />
-      <option name="METHOD_NAME" value="testClickSignIn" />
+      <option name="MAIN_CLASS_NAME" value="TestBoALoanCalculatorPage" />
+      <option name="METHOD_NAME" value="testCalculatePayment" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -323,11 +350,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBoAAppointmentPage.testLearnMore" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestBoALoanCalculatorPage.testTotalOnly" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BankOfAmerica" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestBoAAppointmentPage" />
-      <option name="METHOD_NAME" value="testLearnMore" />
+      <option name="MAIN_CLASS_NAME" value="TestBoALoanCalculatorPage" />
+      <option name="METHOD_NAME" value="testTotalOnly" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -335,24 +362,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBoAAppointmentPage.testVerifyBookAppt" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="&lt;default&gt; (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BankOfAmerica" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestBoAAppointmentPage" />
-      <option name="METHOD_NAME" value="testVerifyBookAppt" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBoAAppointmentPage.testVerifyLearnMore" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BankOfAmerica" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestBoAAppointmentPage" />
-      <option name="METHOD_NAME" value="testVerifyLearnMore" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
       <listeners />
       <method v="2">
@@ -361,11 +384,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestBoAAppointmentPage" />
-        <item itemvalue="TestNG.TestBoAAppointmentPage.testLearnMore" />
-        <item itemvalue="TestNG.TestBoAAppointmentPage.testVerifyLearnMore" />
-        <item itemvalue="TestNG.TestBoAAppointmentPage.testClickSignIn" />
-        <item itemvalue="TestNG.TestBoAAppointmentPage.testVerifyBookAppt" />
+        <item itemvalue="TestNG.&lt;default&gt; (1)" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
+        <item itemvalue="TestNG.TestBoALoanCalculatorPage" />
+        <item itemvalue="TestNG.TestBoALoanCalculatorPage.testTotalOnly" />
+        <item itemvalue="TestNG.TestBoALoanCalculatorPage.testCalculatePayment" />
       </list>
     </recent_temporary>
   </component>
@@ -383,39 +406,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestBoAAppointmentPage - 2019.03.29 at 02h 25m 09s.xml">
-      <configuration name="TestBoAAppointmentPage" configurationId="TestNG" />
+    <history-entry file="TestBoALoanCalculatorPage_testCalculatePayment - 2019.03.29 at 04h 15m 37s.xml">
+      <configuration name="TestBoALoanCalculatorPage.testCalculatePayment" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestBoAAppointmentPage_testLearnMore - 2019.03.29 at 02h 27m 57s.xml">
-      <configuration name="TestBoAAppointmentPage.testLearnMore" configurationId="TestNG" />
+    <history-entry file="TestBoALoanCalculatorPage_testCalculatePayment - 2019.03.29 at 04h 17m 46s.xml">
+      <configuration name="TestBoALoanCalculatorPage.testCalculatePayment" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestBoAAppointmentPage - 2019.03.29 at 02h 28m 34s.xml">
-      <configuration name="TestBoAAppointmentPage" configurationId="TestNG" />
+    <history-entry file="TestBoALoanCalculatorPage_testCalculatePayment - 2019.03.29 at 04h 19m 16s.xml">
+      <configuration name="TestBoALoanCalculatorPage.testCalculatePayment" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestBoAAppointmentPage - 2019.03.29 at 02h 30m 02s.xml">
-      <configuration name="TestBoAAppointmentPage" configurationId="TestNG" />
+    <history-entry file="TestBoALoanCalculatorPage_testCalculatePayment - 2019.03.29 at 04h 20m 47s.xml">
+      <configuration name="TestBoALoanCalculatorPage.testCalculatePayment" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestBoAAppointmentPage - 2019.03.29 at 02h 35m 33s.xml">
-      <configuration name="TestBoAAppointmentPage" configurationId="TestNG" />
+    <history-entry file="TestBoALoanCalculatorPage_testCalculatePayment - 2019.03.29 at 04h 21m 32s.xml">
+      <configuration name="TestBoALoanCalculatorPage.testCalculatePayment" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestBoAAppointmentPage - 2019.03.29 at 02h 36m 26s.xml">
-      <configuration name="TestBoAAppointmentPage" configurationId="TestNG" />
+    <history-entry file="TestBoALoanCalculatorPage_testCalculatePayment - 2019.03.29 at 04h 25m 18s.xml">
+      <configuration name="TestBoALoanCalculatorPage.testCalculatePayment" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestBoAAppointmentPage - 2019.03.29 at 02h 37m 01s.xml">
-      <configuration name="TestBoAAppointmentPage" configurationId="TestNG" />
+    <history-entry file="TestBoALoanCalculatorPage - 2019.03.29 at 04h 25m 53s.xml">
+      <configuration name="TestBoALoanCalculatorPage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestBoAAppointmentPage - 2019.03.29 at 02h 38m 18s.xml">
-      <configuration name="TestBoAAppointmentPage" configurationId="TestNG" />
+    <history-entry file="TestBoALoanCalculatorPage_testTotalOnly - 2019.03.29 at 04h 29m 18s.xml">
+      <configuration name="TestBoALoanCalculatorPage.testTotalOnly" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestBoAAppointmentPage - 2019.03.29 at 02h 40m 17s.xml">
-      <configuration name="TestBoAAppointmentPage" configurationId="TestNG" />
+    <history-entry file="TestBoALoanCalculatorPage_testTotalOnly - 2019.03.29 at 04h 32m 14s.xml">
+      <configuration name="TestBoALoanCalculatorPage.testTotalOnly" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestBoAAppointmentPage - 2019.03.29 at 02h 42m 04s.xml">
-      <configuration name="TestBoAAppointmentPage" configurationId="TestNG" />
+    <history-entry file="TestBoALoanCalculatorPage - 2019.03.29 at 04h 32m 42s.xml">
+      <configuration name="TestBoALoanCalculatorPage" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="726" extended-state="1" />
+    <frame x="0" y="23" width="1280" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
@@ -877,8 +900,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/main/java/BoAAppointmentPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="96" column="32" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="32" />
+        <state relative-caret-position="196">
+          <caret line="14" column="55" lean-forward="true" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/main/java/BoALoanCalculatorPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="107" column="53" lean-forward="true" selection-start-line="107" selection-start-column="53" selection-end-line="107" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -887,7 +920,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/test/java/TestBoAAppointmentPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
+        <state relative-caret-position="247">
           <caret line="68" column="5" lean-forward="true" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -905,6 +938,36 @@
             <element signature="e#1920#1921#0" expanded="true" />
             <element signature="e#2014#2015#0" expanded="true" />
             <element signature="e#2033#2034#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/test/java/TestBoALoanCalculatorPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="67" column="53" lean-forward="true" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+            <element signature="e#893#894#0" expanded="true" />
+            <element signature="e#911#912#0" expanded="true" />
+            <element signature="e#1024#1025#0" expanded="true" />
+            <element signature="e#1065#1066#0" expanded="true" />
+            <element signature="e#1163#1164#0" expanded="true" />
+            <element signature="e#1182#1183#0" expanded="true" />
+            <element signature="e#1297#1298#0" expanded="true" />
+            <element signature="e#1338#1339#0" expanded="true" />
+            <element signature="e#1431#1432#0" expanded="true" />
+            <element signature="e#1450#1451#0" expanded="true" />
+            <element signature="e#1567#1568#0" expanded="true" />
+            <element signature="e#1629#1630#0" expanded="true" />
+            <element signature="e#1704#1705#0" expanded="true" />
+            <element signature="e#1723#1724#0" expanded="true" />
+            <element signature="e#1846#1847#0" expanded="true" />
+            <element signature="e#1907#1908#0" expanded="true" />
+            <element signature="e#2000#2001#0" expanded="true" />
+            <element signature="e#2017#2018#0" expanded="true" />
           </folding>
         </state>
       </provider>
