@@ -1,4 +1,5 @@
 import base.CommonAPI;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
@@ -149,5 +150,10 @@ public class HomePage extends CommonAPI {
     public void costcoPinterestVerify(){
         costcoPintrest.isDisplayed();
         Assert.assertTrue(true);
+    }
+
+    public void searchForItems(String item) {
+        searchBox.clear();
+        searchBox.sendKeys(item, Keys.ENTER);
     }
 }
