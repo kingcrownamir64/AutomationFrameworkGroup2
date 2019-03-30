@@ -147,9 +147,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-38" />
+    <option name="x" value="-34" />
     <option name="y" value="23" />
-    <option name="width" value="1425" />
+    <option name="width" value="1427" />
     <option name="height" value="823" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -205,7 +205,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553760992583" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553971037693" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -233,21 +233,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestBoAHome">
-    <configuration name="TestBoAForgotCredentialsPage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BankOfAmerica" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestBoAForgotCredentialsPage" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.TestHomePage.testSearchItemsSql">
     <configuration name="TestBoAHome" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BankOfAmerica" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestBoAHome" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -290,13 +281,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestHomePage.testSearchItemsSql" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Amazon" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestHomePage" />
+      <option name="METHOD_NAME" value="testSearchItemsSql" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestHomePage.testSearchItemsSql" />
         <item itemvalue="TestNG.TestBoAHome" />
         <item itemvalue="TestNG.TestBoAHome.testSearchSuggestion" />
         <item itemvalue="TestNG.TestHomePage.searchInGrocery" />
         <item itemvalue="TestNG.TestHomePage.selectsteps (1)" />
-        <item itemvalue="TestNG.TestBoAForgotCredentialsPage" />
       </list>
     </recent_temporary>
   </component>
