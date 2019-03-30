@@ -92,4 +92,9 @@ public class TestBoALoanCalculatorPage extends CommonAPI {
     public void testVerifyDownPayment(){
         this.boALoanCalculatorPage.verifyDownPayment();
     }
+    //TEST 16
+    @Test (priority = 16)
+    public void testVerifyCashRebate(){
+        this.boALoanCalculatorPage.verifyCashRebate();
+    }
 }

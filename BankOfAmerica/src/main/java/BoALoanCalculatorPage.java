@@ -163,4 +163,15 @@ public class BoALoanCalculatorPage extends CommonAPI {
         downPayment.isDisplayed();
         Assert.assertTrue(true);
     }
+
+    public void verifyCashRebate(){
+        determineLoanAmt.click();
+        cashRebate.isDisplayed();
+        Assert.assertTrue(true);
+    }
+
+    public void tradeInValue(){
+        determineLoanAmt.click();
+
+    }
 }
