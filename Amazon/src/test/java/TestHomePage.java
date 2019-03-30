@@ -27,6 +27,7 @@ public class TestHomePage extends CommonAPI {
         this.driver.navigate().to(this.homepageUrl);
         this.homePage = PageFactory.initElements(this.driver, HomePage.class);
         mySqlData = new MySqlData();
+        driver.manage().window().maximize();
     }
 
     //  Tests if website is navigated to the homepage
@@ -101,4 +102,96 @@ public class TestHomePage extends CommonAPI {
             homePage.searchForItems(s);
         }
     }
+
+
+    @Test
+    public void r() {
+        this.driver.navigate().to(this.homepageUrl);
+        this.homePage.setCartButton();
+        String cartTitle = driver.getTitle();
+        Assert.assertEquals(cartTitle, "Amazon.com Shopping Cart");
+    }
+
+    @Test
+    public void TestCartBuctton() {
+        this.driver.navigate().to(this.homepageUrl);
+        this.homePage.setCartButton();
+        String cartTitle = driver.getTitle();
+        Assert.assertEquals(cartTitle, "Amazon.com Shopping Cart");
+    }
+
+    @Test
+    public void TestTodaysDealsButton() throws InterruptedException {
+        this.driver.navigate().to(this.homepageUrl);
+        this.homePage.setTodaysDealsButton();
+        Thread.sleep(3000);
+        String TDBTitle = driver.getTitle();
+        Assert.assertEquals(TDBTitle, "Gold Box Deals | Today's Deals - Amazon.com");
+        System.out.println(TDBTitle);
+    }
+
+    @Test
+    public void TesGiftCardButton() throws InterruptedException {
+        this.driver.navigate().to(this.homepageUrl);
+        this.homePage.setGiftCardsButton();
+        Thread.sleep(3000);
+        String GiftCardTitle = driver.getTitle();
+        Assert.assertEquals(GiftCardTitle, "Amazon.com Gift Cards");
+        System.out.println(GiftCardTitle);
+    }
+
+    @Test
+    public void TestSellButton() throws InterruptedException {
+        this.driver.navigate().to(this.homepageUrl);
+        this.homePage.setSellButton();
+        Thread.sleep(3000);
+        String SellTitle = driver.getTitle();
+        Assert.assertEquals(SellTitle, "Amazon.com: Sell Products Online with Selling on Amazon");
+        System.out.println(SellTitle);
+    }
+
+    @Test
+    public void TestRegistryButton() throws InterruptedException {
+        this.driver.navigate().to(this.homepageUrl);
+        this.homePage.setRegistryButton();
+        Thread.sleep(3000);
+        String RegistryTitle = driver.getTitle();
+        Assert.assertEquals(RegistryTitle, "Amazon.com: : Registry");
+        System.out.println(RegistryTitle);
+    }
+
+    @Test
+    public void TestHelpButton() throws InterruptedException {
+        this.driver.navigate().to(this.homepageUrl);
+        this.homePage.setHelpButton();
+        Thread.sleep(3000);
+        String HelpTitle = driver.getTitle();
+        Assert.assertEquals(HelpTitle, "Amazon.com Help");
+        System.out.println(HelpTitle);
+    }
+
+    @Test
+    public void TestWholeFoodButton() throws InterruptedException {
+        this.driver.navigate().to(this.homepageUrl);
+        this.homePage.setWholeFoodsButton();
+        Thread.sleep(3000);
+        String WholeFoodTitle = driver.getTitle();
+        Assert.assertEquals(WholeFoodTitle, "Whole Foods Market @ Amazon.com");
+        System.out.println(WholeFoodTitle);
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
