@@ -2,17 +2,14 @@ import base.CommonAPI;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.testng.annotations.Test;
-
 import java.sql.SQLOutput;
 
 public class BoAAppointmentPage extends CommonAPI{
 
-    WebDriverWait wait = new WebDriverWait(driver, 10);
+    //WebDriverWait wait = new WebDriverWait(driver, 10);
 
     @FindBy (xpath = "//*[@id=\"skip-to-h1\"]")
     private WebElement appointmentHead;
@@ -55,18 +52,21 @@ public class BoAAppointmentPage extends CommonAPI{
     }
 
     public void verifyEverydayBanking(){
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOf(everydayBanking));
         String everydayBankingTitle = everydayBanking.getText();
         Assert.assertEquals(everydayBankingTitle, "Everyday Banking");
     }
 
     public void verifyInvestmentsWithMerrill(){
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOf(investmentsWithMerrill));
         String merrill = investmentsWithMerrill.getText();
         Assert.assertEquals(merrill, "Investments with\n" + "Merrill Edge®");
     }
 
     public void verifyHomeLoans(){
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOf(homeLoans));
         Assert.assertTrue(true);
     }
@@ -82,6 +82,7 @@ public class BoAAppointmentPage extends CommonAPI{
     }
 
     public void verifyBookAppt(){
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.elementToBeClickable(bookAppt));
         bookAppt.isDisplayed();
         Assert.assertTrue(true);

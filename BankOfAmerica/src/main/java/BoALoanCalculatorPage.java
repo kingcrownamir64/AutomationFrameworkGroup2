@@ -2,7 +2,6 @@ import base.CommonAPI;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -10,8 +9,6 @@ import org.testng.annotations.Test;
 import java.sql.SQLOutput;
 
 public class BoALoanCalculatorPage extends CommonAPI {
-
-    WebDriverWait wait = new WebDriverWait(driver, 10);
 
     @FindBy (xpath = "//*[@id=\"paymentCalcAutoModuleJS\"]/div[1]/h2")
     private WebElement loanHeader;
@@ -36,6 +33,24 @@ public class BoALoanCalculatorPage extends CommonAPI {
 
     @FindBy (id = "amount")
     private WebElement amount;
+
+    @FindBy (id = "carPriceField")
+    private WebElement carPrice;
+
+    @FindBy (id = "tradeInValueField")
+    private WebElement tradeIn;
+
+    @FindBy (id = "amtOwedTradeInField")
+    private WebElement amtOwed;
+
+    @FindBy (id = "downPaymentField")
+    private WebElement downPayment;
+
+    @FindBy (id = "cashRebateField")
+    private WebElement cashRebate;
+
+    @FindBy (id = "updateTotal")
+    private WebElement updateTotal;
 
     public void loanCalcTitle(){
         String loanTitle = driver.getTitle();
@@ -80,12 +95,14 @@ public class BoALoanCalculatorPage extends CommonAPI {
     }
 
     public void verifyDetermineLoan(){
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         determineLoanAmt.click();
         wait.until(ExpectedConditions.elementToBeClickable(determineLoanAmt));
         Assert.assertTrue(true);
     }
 
     public void calculatePayment(String total, String months, String interest){
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         totalLoanBar.clear();
         wait.until(ExpectedConditions.elementToBeClickable(totalLoanBar));
         totalLoanBar.sendKeys(total);
@@ -106,5 +123,44 @@ public class BoALoanCalculatorPage extends CommonAPI {
         calculateBtn.click();
         String amountTotal = amount.getText();
         Assert.assertEquals(amountTotal, "Infinity");
+    }
+
+    public void onlyMonths(String text){
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        totalLoanBar.clear();
+        termsMonth.clear();
+        termsMonth.sendKeys(text);
+        interestBar.clear();
+        calculateBtn.click();
+        wait.until(ExpectedConditions.visibilityOf(amount));
+        amount.isDisplayed();
+        Assert.assertTrue(true);
+    }
+    public void verifyCarPrice(String text){
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.elementToBeClickable(determineLoanAmt));
+        determineLoanAmt.click();
+        carPrice.sendKeys(text);
+        updateTotal.click();
+        String totalLoanUpdated = totalLoanBar.getText();
+        Assert.assertEquals(totalLoanUpdated, totalLoanUpdated);
+    }
+
+    public void verifyTradeIn(){
+        determineLoanAmt.click();
+        tradeIn.isDisplayed();
+        Assert.assertTrue(true);
+    }
+
+    public void verifyAmountOwed(){
+        determineLoanAmt.click();
+        amtOwed.isDisplayed();
+        Assert.assertTrue(true);
+    }
+
+    public void verifyDownPayment(){
+        determineLoanAmt.click();
+        downPayment.isDisplayed();
+        Assert.assertTrue(true);
     }
 }

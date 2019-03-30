@@ -19,8 +19,8 @@ public class TestBoALoanCalculatorPage extends CommonAPI {
 
     //TEST 1
     @Test (priority = 1)
-    public void testLoanTitle(){
-        this.boALoanCalculatorPage.loanCalcTitle();
+    public void testVerifyCarPrice(){
+        this.boALoanCalculatorPage.verifyCarPrice("15000");
     }
     //TEST 2
     @Test (priority = 2)
@@ -66,5 +66,30 @@ public class TestBoALoanCalculatorPage extends CommonAPI {
     @Test (priority = 10)
     public void testTotalOnly(){
         this.boALoanCalculatorPage.onlyTotal("1000");
+    }
+    //TEST 11
+    @Test (priority = 11)
+    public void testOnlyMonths(){
+        this.boALoanCalculatorPage.onlyMonths("12");
+    }
+    //TEST 12
+    @Test (priority = 12)
+    public void testLoanTitle(){
+        this.boALoanCalculatorPage.loanCalcTitle();
+    }
+    //TEST 13
+    @Test (priority = 13)
+    public void testVerifyTradeIn(){
+        this.boALoanCalculatorPage.verifyTradeIn();
+    }
+    //TEST 14
+    @Test (priority = 14)
+    public void testVerifyAmtOwed(){
+        this.boALoanCalculatorPage.verifyAmountOwed();
+    }
+    //TEST 15
+    @Test (priority = 15)
+    public void testVerifyDownPayment(){
+        this.boALoanCalculatorPage.verifyDownPayment();
     }
 }
