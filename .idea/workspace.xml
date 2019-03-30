@@ -22,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Costco.com/src/test/java/TestHomePage.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/main/java/BoALoanCalculatorPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="152" column="5" selection-start-line="152" selection-start-column="5" selection-end-line="152" selection-end-column="5" />
+            <state relative-caret-position="2610">
+              <caret line="174" selection-start-line="174" selection-end-line="174" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,19 +35,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/main/java/BoAHome.java">
+        <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/test/java/TestBoALoanCalculatorPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="236" column="57" lean-forward="true" selection-start-line="236" selection-start-column="57" selection-end-line="236" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/test/java/TestBoAHome.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="122" selection-start-line="122" selection-end-line="122" />
+            <state relative-caret-position="237">
+              <caret line="97" column="54" selection-start-line="97" selection-start-column="54" selection-end-line="97" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2279#2280#0" expanded="true" />
+                <element signature="e#2337#2338#0" expanded="true" />
+                <element signature="e#2409#2410#0" expanded="true" />
+                <element signature="e#2428#2429#0" expanded="true" />
+                <element signature="e#2549#2550#0" expanded="true" />
+                <element signature="e#2594#2595#0" expanded="true" />
+                <element signature="e#2691#2692#0" expanded="true" />
+                <element signature="e#2732#2733#0" expanded="true" />
+                <element signature="e#2833#2834#0" expanded="true" />
+                <element signature="e#2850#2851#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,8 +72,8 @@
       <find>testOpt</find>
       <find>macbook</find>
       <find>macbooj</find>
-      <find>searchBar</find>
-      <find>clickS</find>
+      <find>determine</find>
+      <find>d</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/Github/src/main/resources</dir>
@@ -81,7 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/databases/User.java" />
         <option value="$PROJECT_DIR$/Generic/src/secret.properties" />
@@ -119,7 +122,16 @@
         <option value="$PROJECT_DIR$/BankOfAmerica/pom.xml" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/TestHomePage.java" />
         <option value="$PROJECT_DIR$/Costco.com/src/test/java/TestHomePage.java" />
+        <option value="$PROJECT_DIR$/BankOfAmerica/src/test/java/TestBoAHome.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/BankOfAmerica/src/test/java/TestBoAAppointmentPage.java" />
         <option value="$PROJECT_DIR$/BankOfAmerica/src/main/java/BoAHome.java" />
+        <option value="$PROJECT_DIR$/BankOfAmerica/src/main/java/BoALocationsPage.java" />
+        <option value="$PROJECT_DIR$/BankOfAmerica/src/main/java/BoAForgotCredentialsPage.java" />
+        <option value="$PROJECT_DIR$/BankOfAmerica/src/main/java/BoAAppointmentPage.java" />
+        <option value="$PROJECT_DIR$/BankOfAmerica/src/main/java/BoALoanCalculatorPage.java" />
+        <option value="$PROJECT_DIR$/BankOfAmerica/src/test/java/TestBoALoanCalculatorPage.java" />
+        <option value="$PROJECT_DIR$/Costco.com/src/test/resources/CostcoRunner.xml" />
       </list>
     </option>
   </component>
@@ -132,25 +144,15 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="BankOfAmerica" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="BankOfAmerica" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-38" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="14" />
     <option name="y" value="23" />
-    <option name="width" value="1425" />
-    <option name="height" value="823" />
+    <option name="width" value="1266" />
+    <option name="height" value="726" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -170,7 +172,29 @@
             <path>
               <item name="AutomationFrameworkGroup2" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomationFrameworkGroup2" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomationFrameworkGroup2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationFrameworkGroup2" type="462c0819:PsiDirectoryNode" />
+              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomationFrameworkGroup2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationFrameworkGroup2" type="462c0819:PsiDirectoryNode" />
+              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomationFrameworkGroup2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationFrameworkGroup2" type="462c0819:PsiDirectoryNode" />
               <item name="BankOfAmerica" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomationFrameworkGroup2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationFrameworkGroup2" type="462c0819:PsiDirectoryNode" />
+              <item name="BankOfAmerica" type="462c0819:PsiDirectoryNode" />
+              <item name="Extent-Report" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AutomationFrameworkGroup2" type="b2602c69:ProjectViewProjectNode" />
@@ -198,6 +222,14 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AutomationFrameworkGroup2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationFrameworkGroup2" type="462c0819:PsiDirectoryNode" />
+              <item name="Costco.com" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -205,7 +237,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553760992583" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553971061098" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -233,57 +265,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestBoAHome">
-    <configuration name="TestBoAForgotCredentialsPage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BankOfAmerica" />
+  <component name="RunManager" selected="TestNG.&lt;default&gt;">
+    <configuration name="TestAmazonFreshPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Amazon" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestBoAForgotCredentialsPage" />
+      <option name="MAIN_CLASS_NAME" value="TestAmazonFreshPage" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBoAHome" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestBoALoanCalculatorPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BankOfAmerica" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestBoAHome" />
+      <option name="MAIN_CLASS_NAME" value="TestBoALoanCalculatorPage" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBoAHome.testSearchSuggestion" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/Saqib/Desktop/AutomationFrameworkGroup2/BankOfAmerica/src/test/resources/BoARunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BankOfAmerica" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestBoAHome" />
-      <option name="METHOD_NAME" value="testSearchSuggestion" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/BankOfAmerica/src/test/resources/BoARunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHomePage.searchInGrocery" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/Saqib/Desktop/AutomationFrameworkGroup2/Costco.com/src/test/resources/CostcoRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Costco.com" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestHomePage" />
-      <option name="METHOD_NAME" value="searchInGrocery" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Costco.com/src/test/resources/CostcoRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHomePage.selectsteps (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Costcocom" />
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BankOfAmerica" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestHomePage" />
-      <option name="METHOD_NAME" value="selectsteps" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
       <listeners />
       <method v="2">
@@ -292,11 +318,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestBoAHome" />
-        <item itemvalue="TestNG.TestBoAHome.testSearchSuggestion" />
-        <item itemvalue="TestNG.TestHomePage.searchInGrocery" />
-        <item itemvalue="TestNG.TestHomePage.selectsteps (1)" />
-        <item itemvalue="TestNG.TestBoAForgotCredentialsPage" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
+        <item itemvalue="TestNG.TestAmazonFreshPage" />
+        <item itemvalue="TestNG./Users/Saqib/Desktop/AutomationFrameworkGroup2/Costco.com/src/test/resources/CostcoRunner.xml" />
+        <item itemvalue="TestNG./Users/Saqib/Desktop/AutomationFrameworkGroup2/BankOfAmerica/src/test/resources/BoARunner.xml" />
+        <item itemvalue="TestNG.TestBoALoanCalculatorPage" />
       </list>
     </recent_temporary>
   </component>
@@ -314,62 +340,71 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestHomePage_selectsteps_(1) - 2019.03.28 at 03h 43m 07s.xml">
-      <configuration name="TestHomePage.selectsteps (1)" configurationId="TestNG" />
+    <history-entry file="TestBoALoanCalculatorPage - 2019.03.30 at 02h 39m 59s.xml">
+      <configuration name="TestBoALoanCalculatorPage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHomePage_selectsteps_(1) - 2019.03.28 at 03h 48m 47s.xml">
-      <configuration name="TestHomePage.selectsteps (1)" configurationId="TestNG" />
+    <history-entry file="TestBoALoanCalculatorPage - 2019.03.30 at 02h 40m 34s.xml">
+      <configuration name="TestBoALoanCalculatorPage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHomePage_selectsteps - 2019.03.28 at 03h 49m 16s.xml">
-      <configuration name="TestHomePage.selectsteps" configurationId="TestNG" />
+    <history-entry file="TestBoALoanCalculatorPage - 2019.03.30 at 02h 42m 17s.xml">
+      <configuration name="TestBoALoanCalculatorPage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHomePage_selectsteps_(1) - 2019.03.28 at 03h 51m 47s.xml">
-      <configuration name="TestHomePage.selectsteps (1)" configurationId="TestNG" />
+    <history-entry file="_default_ - 2019.03.30 at 02h 42m 42s.xml">
+      <configuration name="&lt;default&gt;" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestBoAForgotCredentialsPage - 2019.03.28 at 03h 58m 11s.xml">
-      <configuration name="TestBoAForgotCredentialsPage" configurationId="TestNG" />
+    <history-entry file="_default__(1) - 2019.03.30 at 02h 42m 51s.xml">
+      <configuration name="&lt;default&gt; (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHomePage_selectsteps_(1) - 2019.03.28 at 03h 59m 13s.xml">
-      <configuration name="TestHomePage.selectsteps (1)" configurationId="TestNG" />
+    <history-entry file="_default__(2) - 2019.03.30 at 02h 43m 02s.xml">
+      <configuration name="&lt;default&gt; (2)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHomePage_searchInGrocery - 2019.03.28 at 04h 00m 04s.xml">
-      <configuration name="TestHomePage.searchInGrocery" configurationId="TestNG" />
+    <history-entry file="TestBoALoanCalculatorPage_testVerifyCashRebate - 2019.03.30 at 13h 48m 37s.xml">
+      <configuration name="TestBoALoanCalculatorPage.testVerifyCashRebate" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestBoAHome_testSearchSuggestion - 2019.03.28 at 04h 11m 04s.xml">
-      <configuration name="TestBoAHome.testSearchSuggestion" configurationId="TestNG" />
+    <history-entry file="TestBoALoanCalculatorPage - 2019.03.30 at 13h 49m 15s.xml">
+      <configuration name="TestBoALoanCalculatorPage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestBoAHome_testSearchSuggestion - 2019.03.28 at 04h 13m 54s.xml">
-      <configuration name="TestBoAHome.testSearchSuggestion" configurationId="TestNG" />
+    <history-entry file="TestAmazonFreshPage - 2019.03.30 at 14h 17m 08s.xml">
+      <configuration name="TestAmazonFreshPage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestBoAHome - 2019.03.28 at 04h 16m 22s.xml">
-      <configuration name="TestBoAHome" configurationId="TestNG" />
+    <history-entry file="_default_ - 2019.03.30 at 14h 28m 44s.xml">
+      <configuration name="&lt;default&gt;" configurationId="TestNG" />
     </history-entry>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="726" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
-      <window_info id="Favorites" order="3" sideWeight="0.5011765" side_tool="true" weight="0.21212122" />
+      <window_info id="Favorites" order="3" sideWeight="0.50136983" side_tool="true" weight="0.2835218" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49882352" visible="true" weight="0.22940226" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.42113563" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="2" weight="0.329653" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.32968536" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.34700316" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49863014" visible="true" weight="0.2835218" />
+      <window_info id="Structure" order="6" sideWeight="0.50136983" side_tool="true" weight="0.2835218" />
+      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.329653" />
+      <window_info anchor="bottom" id="Version Control" order="2" weight="0.329653" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32968536" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.33911672" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" type="SLIDING" visible="true" weight="0.33013698" />
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.17528272" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.21647818" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
@@ -381,15 +416,15 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.5011765" side_tool="true" weight="0.21212122" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49882352" visible="true" weight="0.20922747" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49882352" weight="0.2358643" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.373461" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.329653" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="2" weight="0.329653" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.329653" />
       <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.22650602" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32968536" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.33911672" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -397,7 +432,7 @@
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.18730488" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.21647818" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
@@ -405,29 +440,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Generic/src/secret.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FaceBook/src/test/resources" />
-    <entry file="file://$PROJECT_DIR$/FaceBook/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="674">
-          <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -575,23 +587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2323">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/AmazonPrimeVideoPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
@@ -642,9 +637,117 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco.com/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankOfAmerica/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="124" column="1" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/TestHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="77" column="37" lean-forward="true" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="58" column="12" lean-forward="true" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco.com/src/main/java/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco.com/src/test/java/TestHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1175">
+          <caret line="48" column="38" lean-forward="true" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1463#1464#0" expanded="true" />
+            <element signature="e#1515#1516#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/secret.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
+        <state relative-caret-position="7343">
           <caret line="544" column="32" selection-start-line="544" selection-start-column="32" selection-end-line="544" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -695,80 +798,145 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/test/java/TestBoAForgotCredentialsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/main/java/BoAForgotCredentialsPage.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BankOfAmerica/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="124" column="1" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/TestHomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Costco.com/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Costco.com/src/main/java/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Costco.com/src/test/java/TestHomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="152" column="5" selection-start-line="152" selection-start-column="5" selection-end-line="152" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/main/java/BoAHome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="236" column="57" lean-forward="true" selection-start-line="236" selection-start-column="57" selection-end-line="236" selection-end-column="57" />
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/test/java/TestBoAHome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="122" selection-start-line="122" selection-end-line="122" />
+        <state relative-caret-position="239">
+          <caret line="186" column="36" lean-forward="true" selection-start-line="186" selection-start-column="36" selection-end-line="186" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4774#4775#0" expanded="true" />
+            <element signature="e#4833#4834#0" expanded="true" />
+            <element signature="e#4908#4909#0" expanded="true" />
+            <element signature="e#4956#4957#0" expanded="true" />
+            <element signature="e#5032#5033#0" expanded="true" />
+            <element signature="e#5081#5082#0" expanded="true" />
+            <element signature="e#5154#5155#0" expanded="true" />
+            <element signature="e#5200#5201#0" expanded="true" />
+            <element signature="e#5278#5279#0" expanded="true" />
+            <element signature="e#5323#5324#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/test/java/TestBoALocationsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/main/java/BoALocationsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/main/java/BoAHome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/main/java/BoAForgotCredentialsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/test/java/TestBoAAppointmentPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="68" column="5" lean-forward="true" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1072#1073#0" expanded="true" />
+            <element signature="e#1135#1136#0" expanded="true" />
+            <element signature="e#1204#1205#0" expanded="true" />
+            <element signature="e#1274#1275#0" expanded="true" />
+            <element signature="e#1481#1482#0" expanded="true" />
+            <element signature="e#1546#1547#0" expanded="true" />
+            <element signature="e#1617#1618#0" expanded="true" />
+            <element signature="e#1674#1675#0" expanded="true" />
+            <element signature="e#1882#1883#0" expanded="true" />
+            <element signature="e#1939#1940#0" expanded="true" />
+            <element signature="e#2014#2015#0" expanded="true" />
+            <element signature="e#2074#2075#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/main/java/BoAAppointmentPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="85" column="8" lean-forward="true" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/test/java/TestBoALoanCalculatorPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="97" column="54" selection-start-line="97" selection-start-column="54" selection-end-line="97" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2279#2280#0" expanded="true" />
+            <element signature="e#2337#2338#0" expanded="true" />
+            <element signature="e#2409#2410#0" expanded="true" />
+            <element signature="e#2428#2429#0" expanded="true" />
+            <element signature="e#2549#2550#0" expanded="true" />
+            <element signature="e#2594#2595#0" expanded="true" />
+            <element signature="e#2691#2692#0" expanded="true" />
+            <element signature="e#2732#2733#0" expanded="true" />
+            <element signature="e#2833#2834#0" expanded="true" />
+            <element signature="e#2850#2851#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="1066" column="10" lean-forward="true" selection-start-line="1066" selection-start-column="10" selection-end-line="1066" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/test/resources/BoARunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/main/java/BoALoanCalculatorPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2610">
+          <caret line="174" selection-start-line="174" selection-end-line="174" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco.com/src/test/resources/CostcoRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
         </state>
       </provider>
     </entry>
