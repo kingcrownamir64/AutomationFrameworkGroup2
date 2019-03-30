@@ -1,35 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d815f3b-bde3-4f7e-83bd-e8c44b2e28c5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/Amazon-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/AmazonFreshPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/AmazonPrimeMusicPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/AmazonPrimeVideoPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/CreateAccountPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/HomePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/LoginPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/ExcelFile.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/TestAmazonFreshPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/TestAmazonPrimeMusicPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/TestAmazonPrimeVideoPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/TestCreateAccountPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/TestHomePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/TestLoginPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/src/main/java/BoALoanCalculatorPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/src/main/java/BoALoanCalculatorPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/src/test/java/TestBoALoanCalculatorPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/src/test/java/TestBoALoanCalculatorPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/classes/BoALoanCalculatorPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/classes/BoALoanCalculatorPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/test-classes/TestBoALoanCalculatorPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/test-classes/TestBoALoanCalculatorPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco.com/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Costco.com/Extent-Report/ExtentReport.html" afterDir="false" />
-    </list>
+    <list default="true" id="1d815f3b-bde3-4f7e-83bd-e8c44b2e28c5" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
@@ -50,23 +22,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/main/java/BoALoanCalculatorPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
+            <state relative-caret-position="2610">
               <caret line="174" selection-start-line="174" selection-end-line="174" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="593">
-              <caret line="1097" column="10" lean-forward="true" selection-start-line="1097" selection-start-column="10" selection-end-line="1097" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -89,24 +52,6 @@
                 <element signature="e#2833#2834#0" expanded="true" />
                 <element signature="e#2850#2851#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/test/resources/BoARunner.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" selection-end-line="21" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Costco.com/src/test/resources/CostcoRunner.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -243,13 +188,6 @@
             <path>
               <item name="AutomationFrameworkGroup2" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomationFrameworkGroup2" type="462c0819:PsiDirectoryNode" />
-              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup2" type="462c0819:PsiDirectoryNode" />
               <item name="BankOfAmerica" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -299,7 +237,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553970619671" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553971061098" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -433,6 +371,15 @@
       <configuration name="&lt;default&gt;" configurationId="TestNG" />
     </history-entry>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
@@ -445,15 +392,15 @@
       <window_info id="Structure" order="6" sideWeight="0.50136983" side_tool="true" weight="0.2835218" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="1" weight="0.329653" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.329653" />
-      <window_info anchor="bottom" id="Version Control" order="3" weight="0.329653" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.32968536" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.33911672" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="2" weight="0.329653" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32968536" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.33911672" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" type="SLIDING" visible="true" weight="0.33013698" />
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
@@ -493,7 +440,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FaceBook/pom.xml" />
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -943,16 +889,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/main/java/BoALoanCalculatorPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="174" selection-start-line="174" selection-end-line="174" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/test/java/TestBoALoanCalculatorPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
@@ -976,7 +912,7 @@
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="593">
-          <caret line="1097" column="10" lean-forward="true" selection-start-line="1097" selection-start-column="10" selection-end-line="1097" selection-end-column="10" />
+          <caret line="1066" column="10" lean-forward="true" selection-start-line="1066" selection-start-column="10" selection-end-line="1066" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -984,6 +920,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/main/java/BoALoanCalculatorPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2610">
+          <caret line="174" selection-start-line="174" selection-end-line="174" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco.com/src/test/resources/CostcoRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
         </state>
       </provider>
     </entry>
