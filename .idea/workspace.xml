@@ -2,32 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d815f3b-bde3-4f7e-83bd-e8c44b2e28c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Generic/sql-driver/mysql-connector-java-8.0.15.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Amazon/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/src/main/java/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/main/java/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Amazon/src/test/java/TestHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/test/java/TestHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/Amazon-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/Amazon-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/TestHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/TestHomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/BankOfAmerica-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/BankOfAmerica-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco.com/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Costco.com/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco.com/src/main/java/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Costco.com/src/main/java/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco.com/src/test/java/TestHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Costco.com/src/test/java/TestHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco.com/target/Costco.com-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Costco.com/target/Costco.com-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco.com/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Costco.com/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco.com/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Costco.com/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/secret.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/secret.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToSqlDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToSqlDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Github/target/Github-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Github/target/Github-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/src/test/java/TestLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/test/java/TestLoginPage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,32 +29,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="62" column="1" lean-forward="true" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+            <state relative-caret-position="401">
+              <caret line="103" selection-start-line="103" selection-end-line="103" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#703#704#0" expanded="true" />
-                <element signature="e#748#749#0" expanded="true" />
-                <element signature="e#786#787#0" expanded="true" />
-                <element signature="e#824#825#0" expanded="true" />
-                <element signature="e#859#860#0" expanded="true" />
-                <element signature="e#898#899#0" expanded="true" />
-                <element signature="e#939#940#0" expanded="true" />
-                <element signature="e#984#985#0" expanded="true" />
-                <element signature="e#1020#1021#0" expanded="true" />
-                <element signature="e#1060#1061#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="38" column="9" selection-end-line="124" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1285#1286#0" expanded="true" />
+                <element signature="e#1330#1331#0" expanded="true" />
+                <element signature="e#1368#1369#0" expanded="true" />
+                <element signature="e#1406#1407#0" expanded="true" />
+                <element signature="e#1441#1442#0" expanded="true" />
+                <element signature="e#1480#1481#0" expanded="true" />
+                <element signature="e#1521#1522#0" expanded="true" />
+                <element signature="e#1566#1567#0" expanded="true" />
+                <element signature="e#1608#1609#0" expanded="true" />
+                <element signature="e#1654#1655#0" expanded="true" />
+                <element signature="e#1694#1695#0" expanded="true" />
+                <element signature="e#1738#1739#0" expanded="true" />
+                <element signature="e#1779#1780#0" expanded="true" />
+                <element signature="e#1823#1824#0" expanded="true" />
+                <element signature="e#2053#2054#0" expanded="true" />
+                <element signature="e#2093#2094#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -86,11 +57,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1370">
+            <state relative-caret-position="1710">
               <caret line="114" column="12" selection-start-line="114" selection-start-column="12" selection-end-line="114" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1463#1471#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Costco.com/src/main/java/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="157" column="5" lean-forward="true" selection-start-line="157" selection-start-column="5" selection-end-line="157" selection-end-column="5" />
+            <state relative-caret-position="2265">
+              <caret line="157" column="5" selection-start-line="157" selection-start-column="5" selection-end-line="157" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -114,10 +84,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Costco.com/src/test/java/TestHomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="519">
               <caret line="168" selection-start-line="168" selection-end-line="168" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -141,17 +111,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
+            <state relative-caret-position="570">
               <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/TestHomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="36" />
+            <state relative-caret-position="231">
+              <caret line="151" lean-forward="true" selection-start-line="151" selection-end-line="151" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/TestLoginPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="64" column="47" selection-start-line="64" selection-start-column="47" selection-end-line="64" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -221,7 +203,6 @@
         <option value="$PROJECT_DIR$/Amazon/src/main/java/LoginPage.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/TestAmazonFreshPage.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/TestCreateAccountPage.java" />
-        <option value="$PROJECT_DIR$/Amazon/src/test/java/TestLoginPage.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/TestAmazonPrimeVideoPage.java" />
         <option value="$PROJECT_DIR$/Amazon/src/main/java/AmazonPrimeVideoPage.java" />
         <option value="$PROJECT_DIR$/Github/src/main/java/GithubHomePage.java" />
@@ -234,13 +215,14 @@
         <option value="$PROJECT_DIR$/BankOfAmerica/src/main/java/BoAHome.java" />
         <option value="$PROJECT_DIR$/BankOfAmerica/src/test/java/TestBoAHome.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" />
-        <option value="$PROJECT_DIR$/Amazon/src/main/java/HomePage.java" />
-        <option value="$PROJECT_DIR$/Amazon/src/test/java/TestHomePage.java" />
         <option value="$PROJECT_DIR$/Generic/src/secret.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Costco.com/src/main/java/Datasource/MySqlData.java" />
         <option value="$PROJECT_DIR$/Costco.com/src/main/java/HomePage.java" />
         <option value="$PROJECT_DIR$/Costco.com/src/test/java/TestHomePage.java" />
+        <option value="$PROJECT_DIR$/Amazon/src/main/java/HomePage.java" />
+        <option value="$PROJECT_DIR$/Amazon/src/test/java/TestLoginPage.java" />
+        <option value="$PROJECT_DIR$/Amazon/src/test/java/TestHomePage.java" />
       </list>
     </option>
   </component>
@@ -288,106 +270,6 @@
               <item name="AutomationFrameworkGroup2" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomationFrameworkGroup2" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="AutomationFrameworkGroup2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup2" type="462c0819:PsiDirectoryNode" />
-              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup2" type="462c0819:PsiDirectoryNode" />
-              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup2" type="462c0819:PsiDirectoryNode" />
-              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup2" type="462c0819:PsiDirectoryNode" />
-              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup2" type="462c0819:PsiDirectoryNode" />
-              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="datasource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup2" type="462c0819:PsiDirectoryNode" />
-              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup2" type="462c0819:PsiDirectoryNode" />
-              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup2" type="462c0819:PsiDirectoryNode" />
-              <item name="Costco.com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup2" type="462c0819:PsiDirectoryNode" />
-              <item name="Costco.com" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup2" type="462c0819:PsiDirectoryNode" />
-              <item name="Costco.com" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup2" type="462c0819:PsiDirectoryNode" />
-              <item name="Costco.com" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup2" type="462c0819:PsiDirectoryNode" />
-              <item name="Costco.com" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Datasource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup2" type="462c0819:PsiDirectoryNode" />
-              <item name="Costco.com" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup2" type="462c0819:PsiDirectoryNode" />
-              <item name="Costco.com" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -397,7 +279,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553936118545" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553968510488" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -453,23 +335,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHomePage.selectsteps" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHomePage.TestSellButton" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Amazon" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestHomePage" />
-      <option name="METHOD_NAME" value="selectsteps" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestHomePage.testSearchItemSql" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Costco.com" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestHomePage" />
-      <option name="METHOD_NAME" value="testSearchItemSql" />
+      <option name="METHOD_NAME" value="TestSellButton" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -489,13 +359,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Amazon" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.TestHomePage" />
+        <item itemvalue="TestNG.TestHomePage.TestSellButton" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
         <item itemvalue="TestNG.TestHomePage.TestRegistryButton" />
         <item itemvalue="TestNG.TestHomePage.testSearchItemsSql" />
-        <item itemvalue="TestNG.TestHomePage.selectsteps" />
-        <item itemvalue="TestNG.TestHomePage.testSearchItemSql" />
       </list>
     </recent_temporary>
   </component>
@@ -513,24 +393,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestHomePage_selectsteps_(1) - 2019.03.28 at 03h 51m 47s.xml">
-      <configuration name="TestHomePage.selectsteps (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_default__(1) - 2019.03.28 at 16h 22m 35s.xml">
-      <configuration name="&lt;default&gt; (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_default__(2) - 2019.03.28 at 16h 54m 05s.xml">
-      <configuration name="&lt;default&gt; (2)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_default_ - 2019.03.28 at 16h 54m 27s.xml">
-      <configuration name="&lt;default&gt;" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestHomePage_testSearchItemsSql - 2019.03.28 at 23h 31m 32s.xml">
-      <configuration name="TestHomePage.testSearchItemsSql" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestHomePage_testSearchItemsSql - 2019.03.28 at 23h 43m 09s.xml">
-      <configuration name="TestHomePage.testSearchItemsSql" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestHomePage_testSearchItemsSql_(1) - 2019.03.29 at 01h 10m 45s.xml">
       <configuration name="TestHomePage.testSearchItemsSql (1)" configurationId="TestNG" />
     </history-entry>
@@ -543,10 +405,28 @@
     <history-entry file="TestHomePage_testSearchItemSql - 2019.03.29 at 01h 19m 22s.xml">
       <configuration name="TestHomePage.testSearchItemSql" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestHomePage_selectsteps - 2019.03.30 at 04h 51m 59s.xml">
+      <configuration name="TestHomePage.selectsteps" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestHomePage_testSearchItemsSql - 2019.03.30 at 04h 52m 21s.xml">
+      <configuration name="TestHomePage.testSearchItemsSql" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestHomePage - 2019.03.30 at 04h 54m 28s.xml">
+      <configuration name="TestHomePage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestHomePage_TestRegistryButton - 2019.03.30 at 04h 55m 12s.xml">
+      <configuration name="TestHomePage.TestRegistryButton" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestHomePage - 2019.03.30 at 04h 56m 39s.xml">
+      <configuration name="TestHomePage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_default_ - 2019.03.30 at 13h 51m 15s.xml">
+      <configuration name="&lt;default&gt;" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView" selected-index="3" />
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="23" width="1425" height="823" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
@@ -554,15 +434,15 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.5011765" side_tool="true" weight="0.21212122" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49882352" visible="true" weight="0.20314735" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49882352" visible="true" weight="0.20607375" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.42168674" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.4213406" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="2" weight="0.329653" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32968536" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.34698796" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.34610122" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -570,7 +450,7 @@
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.1223176" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.12219812" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
@@ -862,16 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="38" column="9" selection-end-line="124" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Costco.com/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -906,10 +776,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/TestLoginPage.java">
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+        <state relative-caret-position="570">
+          <caret line="38" column="9" selection-end-line="124" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -918,19 +788,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1370">
+        <state relative-caret-position="1710">
           <caret line="114" column="12" selection-start-line="114" selection-start-column="12" selection-end-line="114" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1463#1471#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/Costco.com/src/main/java/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+        <state relative-caret-position="2265">
+          <caret line="157" column="5" selection-start-line="157" selection-start-column="5" selection-end-line="157" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -951,6 +820,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/datasource/MySqlData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -961,47 +837,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/HomePage.java">
+    <entry file="file://$PROJECT_DIR$/Costco.com/src/test/java/TestHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="62" column="1" lean-forward="true" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+        <state relative-caret-position="519">
+          <caret line="168" selection-start-line="168" selection-end-line="168" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#703#704#0" expanded="true" />
-            <element signature="e#748#749#0" expanded="true" />
-            <element signature="e#786#787#0" expanded="true" />
-            <element signature="e#824#825#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-            <element signature="e#898#899#0" expanded="true" />
-            <element signature="e#939#940#0" expanded="true" />
-            <element signature="e#984#985#0" expanded="true" />
-            <element signature="e#1020#1021#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Costco.com/src/main/java/HomePage.java">
+    <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="157" column="5" lean-forward="true" selection-start-line="157" selection-start-column="5" selection-end-line="157" selection-end-column="5" />
+        <state relative-caret-position="401">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1285#1286#0" expanded="true" />
+            <element signature="e#1330#1331#0" expanded="true" />
+            <element signature="e#1368#1369#0" expanded="true" />
+            <element signature="e#1406#1407#0" expanded="true" />
+            <element signature="e#1441#1442#0" expanded="true" />
+            <element signature="e#1480#1481#0" expanded="true" />
+            <element signature="e#1521#1522#0" expanded="true" />
+            <element signature="e#1566#1567#0" expanded="true" />
+            <element signature="e#1608#1609#0" expanded="true" />
+            <element signature="e#1654#1655#0" expanded="true" />
+            <element signature="e#1694#1695#0" expanded="true" />
+            <element signature="e#1738#1739#0" expanded="true" />
+            <element signature="e#1779#1780#0" expanded="true" />
+            <element signature="e#1823#1824#0" expanded="true" />
+            <element signature="e#2053#2054#0" expanded="true" />
+            <element signature="e#2093#2094#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/TestLoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="64" column="47" selection-start-line="64" selection-start-column="47" selection-end-line="64" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/TestHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Costco.com/src/test/java/TestHomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="168" selection-start-line="168" selection-end-line="168" />
+        <state relative-caret-position="231">
+          <caret line="151" lean-forward="true" selection-start-line="151" selection-end-line="151" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

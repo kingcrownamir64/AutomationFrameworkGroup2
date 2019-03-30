@@ -141,27 +141,27 @@ public class TestHomePage extends CommonAPI {
     }
 
     @Test
-    public void TestSellButton() throws InterruptedException {
+    public void TestSellButton() throws Exception {
         this.driver.navigate().to(this.homepageUrl);
         this.homePage.setSellButton();
         Thread.sleep(3000);
         String SellTitle = driver.getTitle();
-        Assert.assertEquals(SellTitle, "Amazon.com: Sell Products Online with Selling on Amazon");
+        Assert.assertEquals(SellTitle, "Amazon.com: : Registry");
         System.out.println(SellTitle);
     }
 
     @Test
-    public void TestRegistryButton() throws InterruptedException {
+    public void TestRegistryButton() throws Exception {
         this.driver.navigate().to(this.homepageUrl);
         this.homePage.setRegistryButton();
         Thread.sleep(3000);
         String RegistryTitle = driver.getTitle();
-        Assert.assertEquals(RegistryTitle, "Amazon.com: : Registry");
+        Assert.assertEquals(RegistryTitle, "Amazon.com: Sell Products Online with Selling on Amazon");
         System.out.println(RegistryTitle);
     }
 
     @Test
-    public void TestHelpButton() throws InterruptedException {
+    public void TestHelpButton() throws Exception {
         this.driver.navigate().to(this.homepageUrl);
         this.homePage.setHelpButton();
         Thread.sleep(3000);

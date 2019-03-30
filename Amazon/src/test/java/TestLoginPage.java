@@ -62,7 +62,7 @@ public class TestLoginPage extends CommonAPI {
     public void SuccessfulLogin() {
         this.driver.navigate().to(this.signInPageUrl);
         this.signInPage.enterEmail("amirhafiz08@gmail.com");
-        this.signInPage.enterPwd("root");
+        this.signInPage.enterPwd("Youcantseeme1");
         this.signInPage.SignIn();
         String title = driver.getTitle();
         Assert.assertEquals(title, "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more");
