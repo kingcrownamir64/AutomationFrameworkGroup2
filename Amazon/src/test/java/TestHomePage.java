@@ -7,7 +7,6 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import utility.DataReader;
-
 import java.io.IOException;
 import java.util.List;
 
@@ -29,8 +28,14 @@ public class TestHomePage extends CommonAPI {
         mySqlData = new MySqlData();
         driver.manage().window().maximize();
     }
+    @Test
+    public void TestCartButton2() {
+        this.driver.navigate().to(this.homepageUrl);
+        this.homePage.setCartButton();
+        String cartTitle = driver.getTitle();
+        Assert.assertEquals(cartTitle, "Amazon.com Shopping Cart");
+    }
 
-    //  Tests if website is navigated to the homepage
     @Test
     public void testUserCanNavigateToHomePage() {
         this.driver.navigate().to(this.homepageUrl);
@@ -38,14 +43,12 @@ public class TestHomePage extends CommonAPI {
         Assert.assertEquals(homepageTitle, "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more");
     }
 
-    //  Tests if user can use search bar
     @Test
     public void testSearchBar() {
         this.driver.navigate().to(this.homepageUrl);
         this.homePage.searchBoxHome("Type C Charger");
     }
 
-    //  Tests if search button works
     @Test
     public void TestSearchButton() {
         this.driver.navigate().to(this.homepageUrl);
@@ -53,7 +56,6 @@ public class TestHomePage extends CommonAPI {
         this.homePage.SearchButtonHome();
     }
 
-    //  Check if cart button works & navigates to correct page
     @Test
     public void TestCartButton() {
         this.driver.navigate().to(this.homepageUrl);
@@ -62,7 +64,6 @@ public class TestHomePage extends CommonAPI {
         Assert.assertEquals(cartTitle, "Amazon.com Shopping Cart");
     }
 
-    //  Check if Your Amazon button works & navigates to correct page
     @Test
     public void TestYourAmazonButton() {
         this.driver.navigate().to(this.homepageUrl);
@@ -71,7 +72,7 @@ public class TestHomePage extends CommonAPI {
         Assert.assertEquals(YourAmazonTitle, "Amazon Sign In");
     }
 
-
+//KEYWORD DRIVEN TEST
     @Test
     public void selectsteps() throws Exception {
         String[] testSteps = excelData.fileReader3(path, 0);
@@ -89,7 +90,7 @@ public class TestHomePage extends CommonAPI {
             System.out.println(str);
         }
 
-
+//DATA DRIVEN TEST
     }    @Test(description = "mysql test")
     public void testSearchItemsSql() {
         List<String> list = null;

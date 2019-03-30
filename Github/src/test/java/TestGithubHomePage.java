@@ -141,6 +141,11 @@ public class TestGithubHomePage extends CommonAPI {
     }
 
     @Test
+    public void TestNavigateAboutButton() throws Exception {
+        this.homepage.SetAboutButton();
+    }
+
+    @Test
     public void TestBlogButton() throws Exception {
         this.homepage.SetBlogButton();
     }
@@ -152,6 +157,11 @@ public class TestGithubHomePage extends CommonAPI {
 
     @Test
     public void TestPressButton() throws Exception {
+        this.homepage.SetPressButton();
+    }
+
+    @Test
+    public void TestNavigatePressButton() throws Exception {
         this.homepage.SetPressButton();
     }
 
@@ -172,6 +182,11 @@ public class TestGithubHomePage extends CommonAPI {
 
     @Test
     public void TestUsernamePassword() throws Exception {
+        this.homepage.SetPasswordText();
+    }
+
+    @Test
+    public void TestUsernameWithoutPassword() throws Exception {
         this.homepage.SetPasswordText();
     }
 

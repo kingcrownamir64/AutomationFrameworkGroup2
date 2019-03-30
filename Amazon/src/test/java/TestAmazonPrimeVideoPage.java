@@ -41,6 +41,11 @@ public class TestAmazonPrimeVideoPage extends CommonAPI {
     }
 
     @Test
+    public void TestOtherHomeButton() throws Exception {
+        this.homepage.SetHomeButton();
+    }
+
+    @Test
     public void TestKidsButton() throws Exception {
         this.homepage.SetKidsButton();
     }
