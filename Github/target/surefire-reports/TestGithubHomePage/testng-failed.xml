@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [TestGithubHomePage]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="TestGithubHomePage">
+        <methods>
+          <include name="TestDeveloperAPIButton"/>
+          <include name="initialize"/>
+          <include name="TestSetSignUpEmailBox"/>
+          <include name="TestShopButton"/>
+          <include name="afterEachTestMethod"/>
+          <include name="TestOrStartAFreeTrialOfEnterpriseServerButton"/>
+          <include name="TestBlogButton"/>
+          <include name="TestUsernameText"/>
+          <include name="TestAboutButton"/>
+          <include name="TestSearchBox"/>
+          <include name="extentSetup"/>
+          <include name="TestUsernamePassword"/>
+          <include name="TestResourceButton"/>
+          <include name="TestFeatureButton"/>
+          <include name="TestSignUpButton"/>
+          <include name="TestHelpButton"/>
+          <include name="TestUsernameEmail"/>
+          <include name="TestSignUpYourTeamButton"/>
+          <include name="TestContactSalesForInfoButton"/>
+          <include name="TestSecurityButton"/>
+          <include name="TestSetSignUpPasswordBox"/>
+          <include name="TestTrainingButton"/>
+          <include name="TestContactGithubButton"/>
+          <include name="setUp"/>
+          <include name="TestPressButton"/>
+          <include name="TestDropDownWhyButton"/>
+          <include name="TestEnterprise2Button"/>
+          <include name="TestEnterpriseButton"/>
+          <include name="TestCommunityForumButton"/>
+          <include name="TestCustomerStoriesButton"/>
+          <include name="TestContactSalesButton"/>
+          <include name="startExtent"/>
+          <include name="TestPricingButton"/>
+          <include name="TestRobotLogoExists"/>
+          <include name="TestStatusButton"/>
+          <include name="TestComparePlansButton"/>
+          <include name="TestAtomButton"/>
+          <include name="TestCareersButton"/>
+          <include name="TestGithubTitle"/>
+          <include name="TestElectronButton"/>
+          <include name="TestMarketplaceButton"/>
+          <include name="TestSearchBoxButton"/>
+          <include name="TestPartnersButton"/>
+          <include name="TestSetSignUpUsernameBox"/>
+        </methods>
+      </class> <!-- TestGithubHomePage -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [TestGithubHomePage] -->

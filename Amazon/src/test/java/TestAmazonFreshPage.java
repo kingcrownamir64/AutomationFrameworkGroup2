@@ -133,6 +133,15 @@ public class TestAmazonFreshPage extends CommonAPI {
         Assert.assertEquals(BeveragesTitle, "Amazon.com: Local Market - Grocery & Gourmet Food: AmazonFresh");
     }
 
+    @Test(priority = 13)
+    public void testUserCanNavigateToContactdFreshTab() throws Exception {
+        this.driver.navigate().to(this.AmazonFreshPageURL);
+        this.Amazonfreshpage.SetContactFreshButton();
+        Thread.sleep(8000);
+        String MealKitTitle = driver.getTitle();
+        Assert.assertEquals(MealKitTitle, "Amazon Sign In");
+    }
+
     @AfterClass
     public void cleanUp() {
         this.driver.quit();

@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-TestGithubHomePage">
+              <span class="suite-name border-failed">TestGithubHomePage</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-TestGithubHomePage">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-TestGithubHomePage">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-TestGithubHomePage">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-TestGithubHomePage">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-TestGithubHomePage">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-TestGithubHomePage">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-TestGithubHomePage">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">39 methods, 1 failed,  38 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-TestGithubHomePage" class="hide-methods failed suite-TestGithubHomePage"> (hide)</a> <!-- hide-methods failed suite-TestGithubHomePage -->
+                      <a href="#" panel-name="suite-TestGithubHomePage" class="show-methods failed suite-TestGithubHomePage"> (show)</a> <!-- show-methods failed suite-TestGithubHomePage -->
+                    </span>
+                    <div class="method-list-content failed suite-TestGithubHomePage">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestGithubHomePage" title="TestGithubHomePage" hash-for-method="TestAboutButton">TestAboutButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-TestGithubHomePage -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-TestGithubHomePage" class="hide-methods skipped suite-TestGithubHomePage"> (hide)</a> <!-- hide-methods skipped suite-TestGithubHomePage -->
+                      <a href="#" panel-name="suite-TestGithubHomePage" class="show-methods skipped suite-TestGithubHomePage"> (show)</a> <!-- show-methods skipped suite-TestGithubHomePage -->
+                    </span>
+                    <div class="method-list-content skipped suite-TestGithubHomePage">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestGithubHomePage" title="TestGithubHomePage" hash-for-method="TestAtomButton">TestAtomButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestGithubHomePage" title="TestGithubHomePage" hash-for-method="TestBlogButton">TestBlogButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestGithubHomePage" title="TestGithubHomePage" hash-for-method="TestCareersButton">TestCareersButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestGithubHomePage" title="TestGithubHomePage" hash-for-method="TestCommunityForumButton">TestCommunityForumButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestGithubHomePage" title="TestGithubHomePage" hash-for-method="TestComparePlansButton">TestComparePlansButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestGithubHomePage" title="TestGithubHomePage" hash-for-method="TestContactGithubButton">TestContactGithubButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestGithubHomePage" title="TestGithubHomePage" hash-for-method="TestContactSalesButton">TestContactSalesButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestGithubHomePage" title="TestGithubHomePage" hash-for-method="TestContactSalesForInfoButton">TestContactSalesForInfoButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestGithubHomePage" title="TestGithubHomePage" hash-for-method="TestCustomerStoriesButton">TestCustomerStoriesButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestGithubHomePage" title="TestGithubHomePage" hash-for-method="TestDeveloperAPIButton">TestDeveloperAPIButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestGithubHomePage" title="TestGithubHomePage" hash-for-method="TestDropDownWhyButton">TestDropDownWhyButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestGithubHomePage" title="TestGithubHomePage" hash-for-method="TestElectronButton">TestElectronButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestGithubHomePage" title="TestGithubHomePage" hash-for-method="TestEnterprise2Button">TestEnterprise2Button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestGithubHomePage" title="TestGithubHomePage" hash-for-method="TestEnterpriseButton">TestEnterpriseButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestGithubHomePage" title="TestGithubHomePage" hash-for-method="TestFeatureButton">TestFeatureButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestGithubHomePage" title="TestGithubHomePage" hash-for-method="TestGithubTitle">TestGithubTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestGithubHomePage" title="TestGithubHomePage" hash-for-method="TestHelpButton">TestHelpButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestGithubHomePage" title="TestGithubHomePage" hash-for-method="TestMarketplaceButton">TestMarketplaceButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestGithubHomePage" title="TestGithubHomePage" hash-for-method="TestOrStartAFreeTrialOfEnterpriseServerButton">TestOrStartAFreeTrialOfEnterpriseServerButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestGithubHomePage" title="TestGithubHomePage" hash-for-method="TestPartnersButton">TestPartnersButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestGithubHomePage" title="TestGithubHomePage" hash-for-method="TestPressButton">TestPressButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestGithubHomePage" title="TestGithubHomePage" hash-for-method="TestPricingButton">TestPricingButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestGithubHomePage" title="TestGithubHomePage" hash-for-method="TestResourceButton">TestResourceButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestGithubHomePage" title="TestGithubHomePage" hash-for-method="TestRobotLogoExists">TestRobotLogoExists</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestGithubHomePage" title="TestGithubHomePage" hash-for-method="TestSearchBox">TestSearchBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestGithubHomePage" title="TestGithubHomePage" hash-for-method="TestSearchBoxButton">TestSearchBoxButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestGithubHomePage" title="TestGithubHomePage" hash-for-method="TestSecurityButton">TestSecurityButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestGithubHomePage" title="TestGithubHomePage" hash-for-method="TestSetSignUpEmailBox">TestSetSignUpEmailBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestGithubHomePage" title="TestGithubHomePage" hash-for-method="TestSetSignUpPasswordBox">TestSetSignUpPasswordBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestGithubHomePage" title="TestGithubHomePage" hash-for-method="TestSetSignUpUsernameBox">TestSetSignUpUsernameBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestGithubHomePage" title="TestGithubHomePage" hash-for-method="TestShopButton">TestShopButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestGithubHomePage" title="TestGithubHomePage" hash-for-method="TestSignUpButton">TestSignUpButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestGithubHomePage" title="TestGithubHomePage" hash-for-method="TestSignUpYourTeamButton">TestSignUpYourTeamButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestGithubHomePage" title="TestGithubHomePage" hash-for-method="TestStatusButton">TestStatusButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestGithubHomePage" title="TestGithubHomePage" hash-for-method="TestTrainingButton">TestTrainingButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestGithubHomePage" title="TestGithubHomePage" hash-for-method="TestUsernameEmail">TestUsernameEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestGithubHomePage" title="TestGithubHomePage" hash-for-method="TestUsernamePassword">TestUsernamePassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestGithubHomePage" title="TestGithubHomePage" hash-for-method="TestUsernameText">TestUsernameText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-TestGithubHomePage -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TestGithubHomePage" class="panel TestGithubHomePage">
+          <div class="suite-TestGithubHomePage-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestGithubHomePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestAboutButton">
+                  </a> <!-- TestAboutButton -->
+                  <span class="method-name">TestAboutButton</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.14.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mohammads-MacBook-Pro-4.local&apos;, ip: &apos;fd93:d19b:5c45:0:7db3:85fc:4e66:6da6&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.1&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/4t/056t6gvd665...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54144}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: a0264d8cbad30f8a3bc157f461eb087d
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)
+	at GithubHomePage.SetAboutButton(GithubHomePage.java:348)
+	at TestGithubHomePage.TestAboutButton(TestGithubHomePage.java:140)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestGithubHomePage-class-failed -->
+          <div class="suite-TestGithubHomePage-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestGithubHomePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestAtomButton">
+                  </a> <!-- TestAtomButton -->
+                  <span class="method-name">TestAtomButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestBlogButton">
+                  </a> <!-- TestBlogButton -->
+                  <span class="method-name">TestBlogButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCareersButton">
+                  </a> <!-- TestCareersButton -->
+                  <span class="method-name">TestCareersButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCommunityForumButton">
+                  </a> <!-- TestCommunityForumButton -->
+                  <span class="method-name">TestCommunityForumButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestComparePlansButton">
+                  </a> <!-- TestComparePlansButton -->
+                  <span class="method-name">TestComparePlansButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestContactGithubButton">
+                  </a> <!-- TestContactGithubButton -->
+                  <span class="method-name">TestContactGithubButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestContactSalesButton">
+                  </a> <!-- TestContactSalesButton -->
+                  <span class="method-name">TestContactSalesButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestContactSalesForInfoButton">
+                  </a> <!-- TestContactSalesForInfoButton -->
+                  <span class="method-name">TestContactSalesForInfoButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCustomerStoriesButton">
+                  </a> <!-- TestCustomerStoriesButton -->
+                  <span class="method-name">TestCustomerStoriesButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestDeveloperAPIButton">
+                  </a> <!-- TestDeveloperAPIButton -->
+                  <span class="method-name">TestDeveloperAPIButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestDropDownWhyButton">
+                  </a> <!-- TestDropDownWhyButton -->
+                  <span class="method-name">TestDropDownWhyButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestElectronButton">
+                  </a> <!-- TestElectronButton -->
+                  <span class="method-name">TestElectronButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestEnterprise2Button">
+                  </a> <!-- TestEnterprise2Button -->
+                  <span class="method-name">TestEnterprise2Button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestEnterpriseButton">
+                  </a> <!-- TestEnterpriseButton -->
+                  <span class="method-name">TestEnterpriseButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFeatureButton">
+                  </a> <!-- TestFeatureButton -->
+                  <span class="method-name">TestFeatureButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestGithubTitle">
+                  </a> <!-- TestGithubTitle -->
+                  <span class="method-name">TestGithubTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestHelpButton">
+                  </a> <!-- TestHelpButton -->
+                  <span class="method-name">TestHelpButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestMarketplaceButton">
+                  </a> <!-- TestMarketplaceButton -->
+                  <span class="method-name">TestMarketplaceButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestOrStartAFreeTrialOfEnterpriseServerButton">
+                  </a> <!-- TestOrStartAFreeTrialOfEnterpriseServerButton -->
+                  <span class="method-name">TestOrStartAFreeTrialOfEnterpriseServerButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestPartnersButton">
+                  </a> <!-- TestPartnersButton -->
+                  <span class="method-name">TestPartnersButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestPressButton">
+                  </a> <!-- TestPressButton -->
+                  <span class="method-name">TestPressButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestPricingButton">
+                  </a> <!-- TestPricingButton -->
+                  <span class="method-name">TestPricingButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestResourceButton">
+                  </a> <!-- TestResourceButton -->
+                  <span class="method-name">TestResourceButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestRobotLogoExists">
+                  </a> <!-- TestRobotLogoExists -->
+                  <span class="method-name">TestRobotLogoExists</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestSearchBox">
+                  </a> <!-- TestSearchBox -->
+                  <span class="method-name">TestSearchBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestSearchBoxButton">
+                  </a> <!-- TestSearchBoxButton -->
+                  <span class="method-name">TestSearchBoxButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestSecurityButton">
+                  </a> <!-- TestSecurityButton -->
+                  <span class="method-name">TestSecurityButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestSetSignUpEmailBox">
+                  </a> <!-- TestSetSignUpEmailBox -->
+                  <span class="method-name">TestSetSignUpEmailBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestSetSignUpPasswordBox">
+                  </a> <!-- TestSetSignUpPasswordBox -->
+                  <span class="method-name">TestSetSignUpPasswordBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestSetSignUpUsernameBox">
+                  </a> <!-- TestSetSignUpUsernameBox -->
+                  <span class="method-name">TestSetSignUpUsernameBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestShopButton">
+                  </a> <!-- TestShopButton -->
+                  <span class="method-name">TestShopButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestSignUpButton">
+                  </a> <!-- TestSignUpButton -->
+                  <span class="method-name">TestSignUpButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestSignUpYourTeamButton">
+                  </a> <!-- TestSignUpYourTeamButton -->
+                  <span class="method-name">TestSignUpYourTeamButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestStatusButton">
+                  </a> <!-- TestStatusButton -->
+                  <span class="method-name">TestStatusButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestTrainingButton">
+                  </a> <!-- TestTrainingButton -->
+                  <span class="method-name">TestTrainingButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestUsernameEmail">
+                  </a> <!-- TestUsernameEmail -->
+                  <span class="method-name">TestUsernameEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestUsernamePassword">
+                  </a> <!-- TestUsernamePassword -->
+                  <span class="method-name">TestUsernamePassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestUsernameText">
+                  </a> <!-- TestUsernameText -->
+                  <span class="method-name">TestUsernameText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestGithubHomePage-class-skipped -->
+        </div> <!-- panel TestGithubHomePage -->
+        <div panel-name="test-xml-TestGithubHomePage" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;TestGithubHomePage&quot;&gt;
+  &lt;test name=&quot;Command line test&quot; preserve-order=&quot;false&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestGithubHomePage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- TestGithubHomePage --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestGithubHomePage" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestGithubHomePage</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestGithubHomePage" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestGithubHomePage</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestGithubHomePage" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestGithubHomePage</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestGithubHomePage');
+function tableData_TestGithubHomePage() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(39);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TestAboutButton')
+data.setCell(0, 2, 'TestGithubHomePage')
+data.setCell(0, 3, 20);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TestBlogButton')
+data.setCell(1, 2, 'TestGithubHomePage')
+data.setCell(1, 3, 3);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TestPressButton')
+data.setCell(2, 2, 'TestGithubHomePage')
+data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TestCareersButton')
+data.setCell(3, 2, 'TestGithubHomePage')
+data.setCell(3, 3, 1);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TestContactSalesButton')
+data.setCell(4, 2, 'TestGithubHomePage')
+data.setCell(4, 3, 1);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TestCustomerStoriesButton')
+data.setCell(5, 2, 'TestGithubHomePage')
+data.setCell(5, 3, 1);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TestShopButton')
+data.setCell(6, 2, 'TestGithubHomePage')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TestPartnersButton')
+data.setCell(7, 2, 'TestGithubHomePage')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TestPricingButton')
+data.setCell(8, 2, 'TestGithubHomePage')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TestSignUpYourTeamButton')
+data.setCell(9, 2, 'TestGithubHomePage')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TestSearchBoxButton')
+data.setCell(10, 2, 'TestGithubHomePage')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'TestDropDownWhyButton')
+data.setCell(11, 2, 'TestGithubHomePage')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'TestEnterprise2Button')
+data.setCell(12, 2, 'TestGithubHomePage')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'TestUsernamePassword')
+data.setCell(13, 2, 'TestGithubHomePage')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'TestFeatureButton')
+data.setCell(14, 2, 'TestGithubHomePage')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'TestUsernameText')
+data.setCell(15, 2, 'TestGithubHomePage')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'TestMarketplaceButton')
+data.setCell(16, 2, 'TestGithubHomePage')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'TestRobotLogoExists')
+data.setCell(17, 2, 'TestGithubHomePage')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'TestUsernameEmail')
+data.setCell(18, 2, 'TestGithubHomePage')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'TestContactSalesForInfoButton')
+data.setCell(19, 2, 'TestGithubHomePage')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'TestTrainingButton')
+data.setCell(20, 2, 'TestGithubHomePage')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'TestResourceButton')
+data.setCell(21, 2, 'TestGithubHomePage')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'TestEnterpriseButton')
+data.setCell(22, 2, 'TestGithubHomePage')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'TestSetSignUpEmailBox')
+data.setCell(23, 2, 'TestGithubHomePage')
+data.setCell(23, 3, 0);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'TestDeveloperAPIButton')
+data.setCell(24, 2, 'TestGithubHomePage')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'TestSecurityButton')
+data.setCell(25, 2, 'TestGithubHomePage')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'TestSignUpButton')
+data.setCell(26, 2, 'TestGithubHomePage')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'TestHelpButton')
+data.setCell(27, 2, 'TestGithubHomePage')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'TestGithubTitle')
+data.setCell(28, 2, 'TestGithubHomePage')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'TestStatusButton')
+data.setCell(29, 2, 'TestGithubHomePage')
+data.setCell(29, 3, 0);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'TestComparePlansButton')
+data.setCell(30, 2, 'TestGithubHomePage')
+data.setCell(30, 3, 0);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'TestElectronButton')
+data.setCell(31, 2, 'TestGithubHomePage')
+data.setCell(31, 3, 0);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'TestAtomButton')
+data.setCell(32, 2, 'TestGithubHomePage')
+data.setCell(32, 3, 0);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'TestSetSignUpPasswordBox')
+data.setCell(33, 2, 'TestGithubHomePage')
+data.setCell(33, 3, 0);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'TestOrStartAFreeTrialOfEnterpriseServerButton')
+data.setCell(34, 2, 'TestGithubHomePage')
+data.setCell(34, 3, 0);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'TestSetSignUpUsernameBox')
+data.setCell(35, 2, 'TestGithubHomePage')
+data.setCell(35, 3, 0);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'TestContactGithubButton')
+data.setCell(36, 2, 'TestGithubHomePage')
+data.setCell(36, 3, 0);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'TestSearchBox')
+data.setCell(37, 2, 'TestGithubHomePage')
+data.setCell(37, 3, 0);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'TestCommunityForumButton')
+data.setCell(38, 2, 'TestGithubHomePage')
+data.setCell(38, 3, 0);
+window.suiteTableData['TestGithubHomePage']= { tableData: data, tableDiv: 'times-div-TestGithubHomePage'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 28 ms</span>
+              <div id="times-div-TestGithubHomePage">
+              </div> <!-- times-div-TestGithubHomePage -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestGithubHomePage" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestGithubHomePage</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestGithubHomePage" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestGithubHomePage" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestGithubHomePage</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">extentSetup(org.testng.TestRunner@648c94da)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome-options, 34, http://www.cnn.com/)</span>
+                <span class="method-start">324 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">1829 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void TestGithubHomePage.TestAboutButton() throws java.lang.Exception)</span>
+                <span class="method-start">7554 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TestAboutButton</span>
+                <span class="method-start">7558 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">afterEachTestMethod([TestResult name=TestAboutButton status=FAILURE method=TestGithubHomePage.TestAboutButton()[pri:0, i...)</span>
+                <span class="method-start">7580 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TestAtomButton</span>
+                <span class="method-start">7768 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestBlogButton</span>
+                <span class="method-start">7768 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCareersButton</span>
+                <span class="method-start">7771 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCommunityForumButton</span>
+                <span class="method-start">7773 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestComparePlansButton</span>
+                <span class="method-start">7773 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestContactGithubButton</span>
+                <span class="method-start">7774 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestContactSalesButton</span>
+                <span class="method-start">7774 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestContactSalesForInfoButton</span>
+                <span class="method-start">7775 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCustomerStoriesButton</span>
+                <span class="method-start">7775 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestDeveloperAPIButton</span>
+                <span class="method-start">7776 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestDropDownWhyButton</span>
+                <span class="method-start">7777 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestElectronButton</span>
+                <span class="method-start">7778 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestEnterprise2Button</span>
+                <span class="method-start">7778 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestEnterpriseButton</span>
+                <span class="method-start">7778 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFeatureButton</span>
+                <span class="method-start">7779 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestGithubTitle</span>
+                <span class="method-start">7779 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestHelpButton</span>
+                <span class="method-start">7780 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestMarketplaceButton</span>
+                <span class="method-start">7780 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestOrStartAFreeTrialOfEnterpriseServerButton</span>
+                <span class="method-start">7781 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestPartnersButton</span>
+                <span class="method-start">7781 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestPressButton</span>
+                <span class="method-start">7781 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestPricingButton</span>
+                <span class="method-start">7782 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestResourceButton</span>
+                <span class="method-start">7782 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestRobotLogoExists</span>
+                <span class="method-start">7783 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestSearchBox</span>
+                <span class="method-start">7783 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestSearchBoxButton</span>
+                <span class="method-start">7784 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestSecurityButton</span>
+                <span class="method-start">7784 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestSetSignUpEmailBox</span>
+                <span class="method-start">7785 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestSetSignUpPasswordBox</span>
+                <span class="method-start">7785 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestSetSignUpUsernameBox</span>
+                <span class="method-start">7786 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestShopButton</span>
+                <span class="method-start">7786 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestSignUpButton</span>
+                <span class="method-start">7789 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestSignUpYourTeamButton</span>
+                <span class="method-start">7789 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestStatusButton</span>
+                <span class="method-start">7790 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestTrainingButton</span>
+                <span class="method-start">7790 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestUsernameEmail</span>
+                <span class="method-start">7790 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestUsernamePassword</span>
+                <span class="method-start">7791 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestUsernameText</span>
+                <span class="method-start">7791 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

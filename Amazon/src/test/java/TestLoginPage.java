@@ -57,12 +57,20 @@ public class TestLoginPage extends CommonAPI {
         Assert.assertEquals(CAtitle, "Amazon Registration");
     }
 
+    @Test
+    public void NoPasswordLogin2() {
+        this.driver.navigate().to(this.signInPageUrl);
+        this.signInPage.enterEmail("amirhafiz08@gmail.com");
+        this.signInPage.enterPwd("");
+        this.signInPage.SignIn();
+    }
+
     //5. Tests successful login
     @Test
     public void SuccessfulLogin() {
         this.driver.navigate().to(this.signInPageUrl);
         this.signInPage.enterEmail("amirhafiz08@gmail.com");
-        this.signInPage.enterPwd("root");
+        this.signInPage.enterPwd("Youcantseeme1");
         this.signInPage.SignIn();
         String title = driver.getTitle();
         Assert.assertEquals(title, "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more");

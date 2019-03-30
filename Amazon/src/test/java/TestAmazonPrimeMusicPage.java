@@ -85,6 +85,11 @@ public class TestAmazonPrimeMusicPage extends CommonAPI {
     }
 
     @Test
+    public void TestTopAmazonLogo() throws Exception {
+        this.homepage.SetBottomAmazonLogo();
+    }
+
+    @Test
     public void TestTopBannerExists() throws Exception {
         this.homepage.SetTopBanner();
     }
