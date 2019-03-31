@@ -139,34 +139,34 @@ public class TestHomePage extends CommonAPI {
 
     //KEYWORD DRIVEN
     //TEST 17
-    @Test (priority = 17)
-    public void selectSteps() throws Exception {
-        String[] testSteps = excelData.fileReader3(path, 0);
-        for (String str : testSteps) {
-            switch (str) {
-                case "search":
-                    search();
-                    break;
-                case "navigate":
-                    searchMacbook();
-                    break;
-                default:
-                    throw new InvalidArgumentException("Invalid choice");
-            }
-            System.out.println(str);
-        }
-    }
-
-    @Test(description = "mysql test")
-    public void testSearchItemSql() {
-        List<String> list = null;
-        try {
-            list = mySqlData.getItemsListFromDB();
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        for (String s : list) {
-            homePage.searchForItems(s);
-        }
-    }
+//    @Test (priority = 17)
+//    public void selectSteps() throws Exception {
+//        String[] testSteps = excelData.fileReader3(path, 0);
+//        for (String str : testSteps) {
+//            switch (str) {
+//                case "search":
+//                    search();
+//                    break;
+//                case "navigate":
+//                    searchMacbook();
+//                    break;
+//                default:
+//                    throw new InvalidArgumentException("Invalid choice");
+//            }
+//            System.out.println(str);
+//        }
+//    }
+//
+//    @Test(description = "mysql test")
+//    public void testSearchItemSql() {
+//        List<String> list = null;
+//        try {
+//            list = mySqlData.getItemsListFromDB();
+//            } catch (Exception e) {
+//                e.printStackTrace();
+//            }
+//        for (String s : list) {
+//            homePage.searchForItems(s);
+//        }
+//    }
 }

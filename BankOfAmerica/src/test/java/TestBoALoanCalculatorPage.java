@@ -97,4 +97,66 @@ public class TestBoALoanCalculatorPage extends CommonAPI {
     public void testVerifyCashRebate(){
         this.boALoanCalculatorPage.verifyCashRebate();
     }
+    //TEST 17
+    @Test (priority = 17)
+    public void testCarPriceAndTradeIn(){
+        this.boALoanCalculatorPage.carPriceAndTradeInTotal("15000");
+    }
+    //TEST 18
+    @Test (priority = 18)
+    public void testOnlyAmountOwed(){
+        this.boALoanCalculatorPage.onlyAmountOwed("15000");
+    }
+    //TEST 19
+    @Test(priority = 19)
+    public void testDetermineLoanAmountFull(){
+        this.boALoanCalculatorPage.determineLoanAmtFull("40000", "5000", "0",
+                "2500", "500");
+    }
+    //TEST 20
+    @Test(priority = 20)
+    public void testVerifyHelp(){
+        this.boALoanCalculatorPage.verifyHelp();
+    }
+    //TEST 21
+    @Test(priority = 21)
+    public void testClickHelp(){
+        this.boALoanCalculatorPage.clickHelp();
+    }
+    //TEST 22
+    @Test (priority = 22)
+    public void testCalculatePaymentFull(){
+        this.boALoanCalculatorPage.calculatePaymentFull("40000", "5000", "0",
+                "2500", "500", "12", "0");
+    }
+    //TEST 23
+    @Test (priority = 23)
+    public void testClickEligibilityReqmt(){
+        this.boALoanCalculatorPage.clickEligibilityReqmt();
+    }
+    //TEST 24
+    @Test (priority = 24)
+    public void testVerifyMenu(){
+        this.boALoanCalculatorPage.verifyMenu();
+    }
+    //TEST 25
+    @Test (priority = 25)
+    public void testHeaderSignIn(){
+        this.boALoanCalculatorPage.verifyHeaderSignIn();
+    }
+    //TEST 26
+    @Test (priority = 26)
+    public void testClickHeaderSignIn(){
+        this.boALoanCalculatorPage.clickHeaderSignIn();
+    }
+    //TEST 27
+    @Test(priority = 27)
+    public void testVerifyLocationsLink(){
+        this.boALoanCalculatorPage.verifyLocationsLink();
+    }
+    //TEST 28
+    @Test (priority = 28)
+    public void testLocationsTitle(){
+        this.boALoanCalculatorPage.clickLocationsLink();
+    }
 }

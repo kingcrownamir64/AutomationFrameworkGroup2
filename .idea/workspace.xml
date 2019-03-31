@@ -2,50 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d815f3b-bde3-4f7e-83bd-e8c44b2e28c5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/Amazon-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/Amazon-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BankOfAmerica/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/BankOfAmerica-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/BankOfAmerica-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/surefire-reports/Command line suite/Command line test.html" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/surefire-reports/Command line suite/Command line test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/surefire-reports/Command line suite/Command line test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/surefire-reports/Command line suite/Command line test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/surefire-reports/Command line suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/surefire-reports/Command line suite/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/surefire-reports/junitreports/TEST-TestBoAForgotCredentialsPage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/surefire-reports/junitreports/TEST-TestBoAForgotCredentialsPage.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/surefire-reports/junitreports/TEST-TestBoAHome.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/surefire-reports/junitreports/TEST-TestBoAHome.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/surefire-reports/junitreports/TEST-TestBoALocationsPage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/surefire-reports/junitreports/TEST-TestBoALocationsPage.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/surefire-reports/old/Command line suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/surefire-reports/old/Command line suite/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/surefire-reports/old/Command line suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/surefire-reports/old/Command line suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/surefire-reports/old/Command line suite/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/surefire-reports/old/Command line suite/methods-not-run.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/surefire-reports/old/Command line suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/surefire-reports/old/Command line suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/surefire-reports/old/Command line suite/reporter-output.html" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/surefire-reports/old/Command line suite/reporter-output.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/surefire-reports/old/Command line suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/surefire-reports/old/Command line suite/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/surefire-reports/old/Command line suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/surefire-reports/old/Command line suite/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/surefire-reports/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/surefire-reports/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/surefire/surefire5554821331864793032tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/surefire/surefire_0759074376491291657tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/surefire/surefirebooter8076264841211030300.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankOfAmerica/src/main/java/BoALoanCalculatorPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/src/main/java/BoALoanCalculatorPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankOfAmerica/src/test/java/TestBoALoanCalculatorPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/src/test/java/TestBoALoanCalculatorPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Costco.com/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Costco.com/Extent-Report/ExtentReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Costco.com/src/test/java/TestHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Costco.com/src/test/java/TestHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco.com/target/Costco.com-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Costco.com/target/Costco.com-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco.com/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Costco.com/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco.com/target/surefire-reports/Command line suite/Command line test.html" beforeDir="false" afterPath="$PROJECT_DIR$/Costco.com/target/surefire-reports/Command line suite/Command line test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco.com/target/surefire/surefire3632183482772713837tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco.com/target/surefire/surefire_0388199479192497147tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco.com/target/surefire/surefirebooter4978014480068172138.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Github/target/Github-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Github/target/Github-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Github/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Github/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Github/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Github/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -66,24 +27,7 @@
     <favorites_list name="Group2AutomationFramework" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Costco.com/src/test/java/TestHomePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="168" column="39" selection-start-line="168" selection-start-column="39" selection-end-line="168" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1052#1053#0" expanded="true" />
-                <element signature="e#1100#1101#0" expanded="true" />
-                <element signature="e#1578#1579#0" expanded="true" />
-                <element signature="e#1630#1631#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -151,6 +95,12 @@
         <option value="$PROJECT_DIR$/Amazon/src/test/java/TestHomePage.java" />
         <option value="$PROJECT_DIR$/BankOfAmerica/src/main/java/BoAHome.java" />
         <option value="$PROJECT_DIR$/Costco.com/src/test/java/TestHomePage.java" />
+        <option value="$PROJECT_DIR$/BankOfAmerica/src/main/java/BoAApplicationStatusPage.java" />
+        <option value="$PROJECT_DIR$/BankOfAmerica/src/test/java/TestBoAApplicationStatusPage.java" />
+        <option value="$PROJECT_DIR$/BankOfAmerica/src/main/java/BoALoanCalculatorPage.java" />
+        <option value="$PROJECT_DIR$/BankOfAmerica/src/test/java/TestBoALoanCalculatorPage.java" />
+        <option value="$PROJECT_DIR$/BankOfAmerica/src/main/java/BoARefinancePage.java" />
+        <option value="$PROJECT_DIR$/BankOfAmerica/src/test/java/TestBoARefinancePage.java" />
       </list>
     </option>
   </component>
@@ -207,63 +157,8 @@
             <path>
               <item name="AutomationFrameworkGroup2" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomationFrameworkGroup2" type="462c0819:PsiDirectoryNode" />
-              <item name="Costco.com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup2" type="462c0819:PsiDirectoryNode" />
-              <item name="Costco.com" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup2" type="462c0819:PsiDirectoryNode" />
-              <item name="Costco.com" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup2" type="462c0819:PsiDirectoryNode" />
-              <item name="Costco.com" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup2" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup2" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup2" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup2" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup2" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="reporting" type="462c0819:PsiDirectoryNode" />
+              <item name="BankOfAmerica" type="462c0819:PsiDirectoryNode" />
+              <item name="Extent-Report" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -274,7 +169,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553994064227" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554011144199" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -302,38 +197,42 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.&lt;default&gt; (4)">
+  <component name="RunManager" selected="TestNG.&lt;default&gt; (1)">
+    <configuration name="TestBoARefinancePage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BankOfAmerica" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestBoARefinancePage" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBoARefinancePage.testFillOut" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BankOfAmerica" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestBoARefinancePage" />
+      <option name="METHOD_NAME" value="testFillOut" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBoARefinancePage.testRefinanceOnly" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BankOfAmerica" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestBoARefinancePage" />
+      <option name="METHOD_NAME" value="testRefinanceOnly" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="&lt;default&gt; (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BankOfAmerica" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="&lt;default&gt; (2)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BankOfAmerica" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="&lt;default&gt; (3)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BankOfAmerica" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="&lt;default&gt; (4)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BankOfAmerica" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="PACKAGE" />
@@ -355,11 +254,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.&lt;default&gt; (4)" />
-        <item itemvalue="TestNG.&lt;default&gt; (3)" />
-        <item itemvalue="TestNG.&lt;default&gt; (2)" />
         <item itemvalue="TestNG.&lt;default&gt; (1)" />
         <item itemvalue="TestNG.&lt;default&gt;" />
+        <item itemvalue="TestNG.TestBoARefinancePage" />
+        <item itemvalue="TestNG.TestBoARefinancePage.testFillOut" />
+        <item itemvalue="TestNG.TestBoARefinancePage.testRefinanceOnly" />
       </list>
     </recent_temporary>
   </component>
@@ -377,40 +276,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_default__(1) - 2019.03.30 at 16h 42m 11s.xml">
-      <configuration name="&lt;default&gt; (1)" configurationId="TestNG" />
+    <history-entry file="TestBoARefinancePage_testRefinanceOnly - 2019.03.31 at 01h 13m 02s.xml">
+      <configuration name="TestBoARefinancePage.testRefinanceOnly" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_default__(2) - 2019.03.30 at 16h 47m 28s.xml">
-      <configuration name="&lt;default&gt; (2)" configurationId="TestNG" />
+    <history-entry file="TestBoARefinancePage_testRefinanceOnly - 2019.03.31 at 01h 15m 06s.xml">
+      <configuration name="TestBoARefinancePage.testRefinanceOnly" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_default__(3) - 2019.03.30 at 17h 03m 38s.xml">
-      <configuration name="&lt;default&gt; (3)" configurationId="TestNG" />
+    <history-entry file="TestBoARefinancePage_testRefinanceOnly - 2019.03.31 at 01h 15m 53s.xml">
+      <configuration name="TestBoARefinancePage.testRefinanceOnly" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_default__(4) - 2019.03.30 at 17h 06m 07s.xml">
-      <configuration name="&lt;default&gt; (4)" configurationId="TestNG" />
+    <history-entry file="TestBoARefinancePage_testRefinanceOnly - 2019.03.31 at 01h 18m 15s.xml">
+      <configuration name="TestBoARefinancePage.testRefinanceOnly" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_default__(5) - 2019.03.30 at 17h 07m 43s.xml">
-      <configuration name="&lt;default&gt; (5)" configurationId="TestNG" />
+    <history-entry file="TestBoARefinancePage_testRefinanceOnly - 2019.03.31 at 01h 19m 11s.xml">
+      <configuration name="TestBoARefinancePage.testRefinanceOnly" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_default_ - 2019.03.30 at 17h 08m 48s.xml">
+    <history-entry file="TestBoARefinancePage - 2019.03.31 at 01h 19m 56s.xml">
+      <configuration name="TestBoARefinancePage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestBoARefinancePage_testFillOut - 2019.03.31 at 01h 29m 03s.xml">
+      <configuration name="TestBoARefinancePage.testFillOut" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestBoARefinancePage - 2019.03.31 at 01h 29m 40s.xml">
+      <configuration name="TestBoARefinancePage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_default_ - 2019.03.31 at 01h 36m 02s.xml">
       <configuration name="&lt;default&gt;" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_default__(1) - 2019.03.30 at 17h 19m 30s.xml">
+    <history-entry file="_default__(1) - 2019.03.31 at 01h 43m 06s.xml">
       <configuration name="&lt;default&gt; (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_default__(2) - 2019.03.30 at 17h 26m 25s.xml">
-      <configuration name="&lt;default&gt; (2)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_default__(3) - 2019.03.30 at 17h 33m 32s.xml">
-      <configuration name="&lt;default&gt; (3)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_default__(4) - 2019.03.30 at 17h 37m 02s.xml">
-      <configuration name="&lt;default&gt; (4)" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1200" height="726" extended-state="1" />
-    <editor active="true" />
+    <frame x="0" y="24" width="1200" height="726" extended-state="0" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -424,9 +322,9 @@
       <window_info anchor="bottom" id="Messages" order="2" weight="0.329653" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.32968536" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.2192429" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.329653" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.2791798" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39905363" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -469,17 +367,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Generic/src/secret.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FaceBook/src/test/resources" />
-    <entry file="file://$PROJECT_DIR$/FaceBook/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/FaceBook/src/main/java/facebookHomeTabVarifys/HomeTabsVarifys.java" />
-    <entry file="file://$PROJECT_DIR$/FaceBook/src/test/java/testFaceBookHomeTabsVarifys/TestHomeTabsVarifys.java" />
     <entry file="file://$PROJECT_DIR$/FaceBook/src/test/resources/FaceBookTestRunner.xml" />
     <entry file="file://$PROJECT_DIR$/Costco/src/main/java/HomePage.java" />
     <entry file="file://$PROJECT_DIR$/Costco/src/test/resources/CostcoHomePageRunner.xml" />
@@ -805,13 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/test/java/TestBoALocationsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-756">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Costco.com/src/test/java/TestMembershipClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-41">
@@ -868,14 +748,161 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Costco.com/src/test/java/TestHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="168" column="39" selection-start-line="168" selection-start-column="39" selection-end-line="168" selection-end-column="39" />
+        <state relative-caret-position="353">
+          <caret line="170" column="7" lean-forward="true" selection-start-line="170" selection-start-column="7" selection-end-line="170" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1052#1053#0" expanded="true" />
             <element signature="e#1100#1101#0" expanded="true" />
             <element signature="e#1578#1579#0" expanded="true" />
             <element signature="e#1630#1631#0" expanded="true" />
+            <element signature="e#1837#1838#0" expanded="true" />
+            <element signature="e#1886#1887#0" expanded="true" />
+            <element signature="e#1963#1964#0" expanded="true" />
+            <element signature="e#2016#2017#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/test/java/TestBoALocationsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-975">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/test/java/TestBoAApplicationStatusPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#793#794#0" expanded="true" />
+            <element signature="e#863#864#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/main/java/BoAApplicationStatusPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/main/java/BoALoanCalculatorPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="115" column="59" lean-forward="true" selection-start-line="115" selection-start-column="59" selection-end-line="115" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/main/java/BoARefinancePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="140" column="30" selection-start-line="140" selection-start-column="30" selection-end-line="140" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/test/java/TestBoARefinancePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="78" column="27" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
+            <element signature="e#990#991#0" expanded="true" />
+            <element signature="e#1046#1047#0" expanded="true" />
+            <element signature="e#1123#1124#0" expanded="true" />
+            <element signature="e#1190#1191#0" expanded="true" />
+            <element signature="e#1274#1275#0" expanded="true" />
+            <element signature="e#1356#1357#0" expanded="true" />
+            <element signature="e#1435#1436#0" expanded="true" />
+            <element signature="e#1496#1497#0" expanded="true" />
+            <element signature="e#1568#1569#0" expanded="true" />
+            <element signature="e#1622#1623#0" expanded="true" />
+            <element signature="e#1693#1694#0" expanded="true" />
+            <element signature="e#1746#1747#0" expanded="true" />
+            <element signature="e#1828#1829#0" expanded="true" />
+            <element signature="e#1892#1893#0" expanded="true" />
+            <element signature="e#1974#1975#0" expanded="true" />
+            <element signature="e#2051#2052#0" expanded="true" />
+            <element signature="e#2092#2093#0" expanded="true" />
+            <element signature="e#2127#2128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/test/java/TestBoALoanCalculatorPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1855">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
+            <element signature="e#1037#1038#0" expanded="true" />
+            <element signature="e#1102#1103#0" expanded="true" />
+            <element signature="e#1176#1177#0" expanded="true" />
+            <element signature="e#1239#1240#0" expanded="true" />
+            <element signature="e#1310#1311#0" expanded="true" />
+            <element signature="e#1371#1372#0" expanded="true" />
+            <element signature="e#1444#1445#0" expanded="true" />
+            <element signature="e#1506#1507#0" expanded="true" />
+            <element signature="e#1580#1581#0" expanded="true" />
+            <element signature="e#1642#1643#0" expanded="true" />
+            <element signature="e#1717#1718#0" expanded="true" />
+            <element signature="e#1781#1782#0" expanded="true" />
+            <element signature="e#1859#1860#0" expanded="true" />
+            <element signature="e#1940#1941#0" expanded="true" />
+            <element signature="e#2013#2014#0" expanded="true" />
+            <element signature="e#2073#2074#0" expanded="true" />
+            <element signature="e#2147#2148#0" expanded="true" />
+            <element signature="e#2206#2207#0" expanded="true" />
+            <element signature="e#2279#2280#0" expanded="true" />
+            <element signature="e#2337#2338#0" expanded="true" />
+            <element signature="e#2414#2415#0" expanded="true" />
+            <element signature="e#2472#2473#0" expanded="true" />
+            <element signature="e#2549#2550#0" expanded="true" />
+            <element signature="e#2610#2611#0" expanded="true" />
+            <element signature="e#2691#2692#0" expanded="true" />
+            <element signature="e#2753#2754#0" expanded="true" />
+            <element signature="e#2833#2834#0" expanded="true" />
+            <element signature="e#2894#2895#0" expanded="true" />
+            <element signature="e#2976#2977#0" expanded="true" />
+            <element signature="e#3051#3052#0" expanded="true" />
+            <element signature="e#3129#3130#0" expanded="true" />
+            <element signature="e#3195#3196#0" expanded="true" />
+            <element signature="e#3470#3471#0" expanded="true" />
+            <element signature="e#3525#3526#0" expanded="true" />
+            <element signature="e#3597#3598#0" expanded="true" />
+            <element signature="e#3651#3652#0" expanded="true" />
+            <element signature="e#3947#3948#0" expanded="true" />
+            <element signature="e#4013#4014#0" expanded="true" />
+            <element signature="e#4087#4088#0" expanded="true" />
+            <element signature="e#4106#4107#0" expanded="true" />
+            <element signature="e#4218#4219#0" expanded="true" />
+            <element signature="e#4259#4260#0" expanded="true" />
+            <element signature="e#4362#4363#0" expanded="true" />
+            <element signature="e#4403#4404#0" expanded="true" />
+            <element signature="e#4506#4507#0" expanded="true" />
+            <element signature="e#4570#4571#0" expanded="true" />
+            <element signature="e#4648#4649#0" expanded="true" />
+            <element signature="e#4667#4668#0" expanded="true" />
           </folding>
         </state>
       </provider>

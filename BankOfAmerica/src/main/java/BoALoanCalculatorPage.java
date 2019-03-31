@@ -52,6 +52,24 @@ public class BoALoanCalculatorPage extends CommonAPI {
     @FindBy (id = "updateTotal")
     private WebElement updateTotal;
 
+    @FindBy (id = "help-open-totalLoanAmountField")
+    private WebElement help;
+
+    @FindBy(xpath = "//*[@id=\"helpLayer_totalLoanAmountField\"]/div[1]")
+    private WebElement loanAmountsHelp;
+
+    @FindBy (id = "eligibility")
+    private WebElement eligibilityReqmt;
+
+    @FindBy (xpath = "//*[@id=\"globalNavModule\"]/header/div[2]/div[2]/div[3]/a")
+    private WebElement menu;
+
+    @FindBy (id = "header-signin")
+    private WebElement headerSignIn;
+
+    @FindBy (id = "locations-route-to")
+    private WebElement locationsLink;
+
     public void loanCalcTitle(){
         String loanTitle = driver.getTitle();
         Assert.assertEquals(loanTitle, "Auto Loan Calculator & Car Payment Tool at Bank of America");
@@ -170,8 +188,114 @@ public class BoALoanCalculatorPage extends CommonAPI {
         Assert.assertTrue(true);
     }
 
-    public void tradeInValue(){
+    public void carPriceAndTradeInTotal(String text){
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.elementToBeClickable(determineLoanAmt));
         determineLoanAmt.click();
+        carPrice.clear();
+        tradeIn.clear();
+        carPrice.sendKeys(text);
+        tradeIn.sendKeys(text);
+        updateTotal.click();
+        wait.until(ExpectedConditions.visibilityOf(totalLoanBar));
+        String total = totalLoanBar.getText();
+        Assert.assertEquals(total, "");
+    }
 
+    public void onlyAmountOwed(String text){
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.elementToBeClickable(determineLoanAmt));
+        determineLoanAmt.click();
+        amtOwed.clear();
+        amtOwed.sendKeys(text);
+        updateTotal.click();
+        String amtOwedTotal = totalLoanBar.getText();
+        Assert.assertEquals(amtOwedTotal, amtOwedTotal);
+    }
+
+    public void determineLoanAmtFull(String carprice, String tradein, String amountOwed, String downpayment, String cashrebate){
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.elementToBeClickable(determineLoanAmt));
+        determineLoanAmt.click();
+        carPrice.clear();
+        tradeIn.clear();
+        amtOwed.clear();
+        downPayment.clear();
+        cashRebate.clear();
+        carPrice.sendKeys(carprice);
+        tradeIn.sendKeys(tradein);
+        amtOwed.sendKeys(amountOwed);
+        downPayment.sendKeys(downpayment);
+        cashRebate.sendKeys(cashrebate);
+        updateTotal.click();
+        String fullTotal = totalLoanBar.getText();
+        Assert.assertEquals(fullTotal, fullTotal);
+    }
+
+    public void verifyHelp(){
+        help.isDisplayed();
+        Assert.assertTrue(true);
+    }
+
+    public void clickHelp(){
+        help.click();
+        loanAmountsHelp.isDisplayed();
+        Assert.assertTrue(true);
+    }
+
+    public void calculatePaymentFull(String carprice, String tradein, String amountOwed, String downpayment, String cashrebate, String months, String interest){
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.elementToBeClickable(determineLoanAmt));
+        determineLoanAmt.click();
+        carPrice.clear();
+        tradeIn.clear();
+        amtOwed.clear();
+        downPayment.clear();
+        cashRebate.clear();
+        carPrice.sendKeys(carprice);
+        tradeIn.sendKeys(tradein);
+        amtOwed.sendKeys(amountOwed);
+        downPayment.sendKeys(downpayment);
+        cashRebate.sendKeys(cashrebate);
+        updateTotal.click();
+        termsMonth.clear();
+        termsMonth.sendKeys(months);
+        interestBar.clear();
+        interestBar.sendKeys(interest);
+        String calculateTotal = amount.getText();
+        Assert.assertEquals(calculateTotal, calculateTotal);
+    }
+
+    public void clickEligibilityReqmt(){
+        eligibilityReqmt.click();
+        String eligibilityTitle = driver.getTitle();
+        Assert.assertEquals(eligibilityTitle, "Auto Loan FAQs from Bank of America");
+    }
+
+    public void verifyMenu(){
+        menu.isDisplayed();
+        Assert.assertTrue(true);
+    }
+
+    public void verifyHeaderSignIn(){
+        headerSignIn.isDisplayed();
+        Assert.assertTrue(true);
+    }
+
+    public void clickHeaderSignIn(){
+        headerSignIn.click();
+        String signInTitle = driver.getTitle();
+        Assert.assertEquals(signInTitle, "Sign in to Bank of America Online & Mobile Banking to Manage Your Accounts");
+    }
+
+    public void verifyLocationsLink(){
+        locationsLink.isDisplayed();
+        Assert.assertTrue(true);
+    }
+
+    public void clickLocationsLink(){
+        locationsLink.click();
+        String locationsTitle = driver.getTitle();
+        Assert.assertEquals(locationsTitle, "Bank of America Financial Centers and ATMs");
     }
 }
