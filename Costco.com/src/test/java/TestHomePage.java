@@ -14,8 +14,8 @@ import java.io.IOException;
 import java.util.List;
 
 public class TestHomePage extends CommonAPI {
-    MySqlData mySqlData;
 
+    MySqlData mySqlData;
 
     String homepageUrl = "https://www.costco.com";
     HomePage homePage;
@@ -140,7 +140,7 @@ public class TestHomePage extends CommonAPI {
     //KEYWORD DRIVEN
     //TEST 17
     @Test (priority = 17)
-    public void selectsteps() throws Exception {
+    public void selectSteps() throws Exception {
         String[] testSteps = excelData.fileReader3(path, 0);
         for (String str : testSteps) {
             switch (str) {
@@ -157,17 +157,16 @@ public class TestHomePage extends CommonAPI {
         }
     }
 
-        @Test(description = "mysql test")
-        public void testSearchItemSql() {
-            List<String> list = null;
-            try {
-                list = mySqlData.getItemsListFromDB();
+    @Test(description = "mysql test")
+    public void testSearchItemSql() {
+        List<String> list = null;
+        try {
+            list = mySqlData.getItemsListFromDB();
             } catch (Exception e) {
                 e.printStackTrace();
             }
-            for (String s : list) {
-                homePage.searchForItems(s);
-            }
+        for (String s : list) {
+            homePage.searchForItems(s);
         }
-
     }
+}

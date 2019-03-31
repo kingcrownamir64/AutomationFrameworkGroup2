@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="TestMembershipClass">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="initialize"/>
+          <include name="TestTermsAndConditions"/>
+          <include name="TestWhyBecomeMember"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="WhyBecomeMemberTitle"/>
+        </methods>
+      </class> <!-- TestMembershipClass -->
+      <class name="TestSignInPage">
+        <methods>
+          <include name="TestForgetPassword"/>
+          <include name="testSignInButton"/>
+          <include name="enterPassword"/>
+          <include name="enterEmail"/>
+          <include name="testSignInTitle"/>
+        </methods>
+      </class> <!-- TestSignInPage -->
+      <class name="TestLocationsPage">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="setUp"/>
+          <include name="initialize"/>
+          <include name="startExtent"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- TestLocationsPage -->
+      <class name="TestHomePage">
+        <methods>
+          <include name="testOpticalUrl"/>
+          <include name="testDropDown"/>
+          <include name="clickLocationsTab"/>
+          <include name="afterEachTestMethod"/>
+          <include name="testHomepageTitle"/>
+          <include name="testServicesUrl"/>
+          <include name="testGroceryUrl"/>
+          <include name="startExtent"/>
+          <include name="testBusinessDelivery"/>
+          <include name="searchInGrocery"/>
+          <include name="search"/>
+          <include name="clickCategoriesTest"/>
+          <include name="searchMacbook"/>
+          <include name="testCostcoPinterest"/>
+          <include name="initialize"/>
+          <include name="testCostcoFbook"/>
+          <include name="testCustomerService"/>
+          <include name="testPharmacy"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- TestHomePage -->
+      <class name="TestRegisterPage">
+        <methods>
+          <include name="enterEmailandPassword"/>
+          <include name="testEmailBar"/>
+          <include name="testPasswordBar"/>
+          <include name="emailPasswordMemberId"/>
+          <include name="initialize"/>
+          <include name="afterEachTestMethod"/>
+          <include name="testBuyMembershipTab"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- TestRegisterPage -->
+      <class name="TestServicePage">
+        <methods>
+          <include name="testCancelBtn"/>
+          <include name="testLifeTab"/>
+          <include name="testServicePageTitle"/>
+          <include name="initialize"/>
+          <include name="testVideoTab"/>
+          <include name="testBusinessTab"/>
+          <include name="testExternalLinkBtn"/>
+          <include name="testHomeTab"/>
+          <include name="setUp"/>
+          <include name="testAutoHomeInsurance"/>
+        </methods>
+      </class> <!-- TestServicePage -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

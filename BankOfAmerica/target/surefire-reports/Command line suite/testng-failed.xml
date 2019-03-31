@@ -3,37 +3,130 @@
 <suite verbose="0" name="Failed suite [Command line suite]">
   <test name="Command line test(failed)">
     <classes>
-      <class name="TestBoALocationsPage">
-        <methods>
-          <include name="initialize"/>
-          <include name="afterEachTestMethod"/>
-          <include name="testInternationLink"/>
-          <include name="generateReport"/>
-          <include name="extentSetup"/>
-          <include name="setUp"/>
-          <include name="startExtent"/>
-          <include name="cleanUp"/>
-        </methods>
-      </class> <!-- TestBoALocationsPage -->
       <class name="TestBoAForgotCredentialsPage">
         <methods>
           <include name="afterEachTestMethod"/>
-          <include name="setUp"/>
+          <include name="testAccntNumBox"/>
+          <include name="extentSetup"/>
+          <include name="testForgotLogo"/>
           <include name="startExtent"/>
+          <include name="testAccntNumInput"/>
           <include name="initialize"/>
-          <include name="cleanUp"/>
+          <include name="testShortAcctNum"/>
+          <include name="testAccntNumEnter"/>
+          <include name="testSSNEnter"/>
+          <include name="testCredentials"/>
+          <include name="testCancelBtn"/>
+          <include name="testShortSSN"/>
+          <include name="setUp"/>
         </methods>
       </class> <!-- TestBoAForgotCredentialsPage -->
+      <class name="TestBoALoanCalculatorPage">
+        <methods>
+          <include name="testDetermineLoan"/>
+          <include name="afterEachTestMethod"/>
+          <include name="testTotalOnly"/>
+          <include name="testVerifyAmtOwed"/>
+          <include name="testLoanHeader"/>
+          <include name="initialize"/>
+          <include name="testTermsMonth"/>
+          <include name="testCalculatePayment"/>
+          <include name="testVerifyDownPayment"/>
+          <include name="startExtent"/>
+          <include name="testLoanTitle"/>
+          <include name="testInterestBar"/>
+          <include name="testOnlyMonths"/>
+          <include name="testAutoLoanHeader"/>
+          <include name="testVerifyCashRebate"/>
+          <include name="testTotalLoanBar"/>
+          <include name="testVerifyTradeIn"/>
+          <include name="setUp"/>
+          <include name="testCalculateBtn"/>
+        </methods>
+      </class> <!-- TestBoALoanCalculatorPage -->
+      <class name="TestBoAAppointmentPage">
+        <methods>
+          <include name="testSignInBtn"/>
+          <include name="initialize"/>
+          <include name="afterEachTestMethod"/>
+          <include name="testBusinessAdvantage"/>
+          <include name="testEverydayBanking"/>
+          <include name="testVerifyBookAppt"/>
+          <include name="testBenefitSent"/>
+          <include name="startExtent"/>
+          <include name="testHomeLoans"/>
+          <include name="testMerrill"/>
+          <include name="testAppointmentHead"/>
+          <include name="setUp"/>
+          <include name="testVerifyLearnMore"/>
+        </methods>
+      </class> <!-- TestBoAAppointmentPage -->
       <class name="TestBoAHome">
         <methods>
+          <include name="testHomeLoansTab"/>
+          <include name="testContactUs"/>
+          <include name="testOnlineIDPlaceHolder"/>
           <include name="afterEachTestMethod"/>
+          <include name="testSmallBusinessTitle"/>
+          <include name="testSignInText"/>
+          <include name="testBusinessInstitutionTitle"/>
+          <include name="testSignInMessageNoOnlineId"/>
+          <include name="testCreditCardsTab"/>
           <include name="testSearchSuggestion"/>
           <include name="setUp"/>
+          <include name="testCheckingTab"/>
+          <include name="testSmallBusinessTab"/>
+          <include name="testCreditCardTravels"/>
+          <include name="testPasscode"/>
+          <include name="testAutoLoansTab"/>
+          <include name="testCreditCardBuildCreditCards"/>
+          <include name="testBusinessInstitutionUrl"/>
+          <include name="testCreditCardLowerInterest"/>
+          <include name="testEspanolLink"/>
           <include name="startExtent"/>
-          <include name="cleanUp"/>
+          <include name="testEspanolTitle"/>
+          <include name="testOnlineId"/>
+          <include name="testCreditCardCashBack"/>
+          <include name="testInvestingTab"/>
+          <include name="testSignInMessageNoPasscode"/>
+          <include name="testWealthManagementUrl"/>
+          <include name="testBoALogo"/>
+          <include name="testAboutUsUrl"/>
+          <include name="testCreditCardPointsRewards"/>
+          <include name="testSavingsTab"/>
+          <include name="testBetterMoneyTab"/>
+          <include name="testContactUsTitle"/>
+          <include name="testSearchPlaceHolder"/>
+          <include name="testWealthMgmtTitle"/>
+          <include name="testSaveCredentials"/>
           <include name="initialize"/>
         </methods>
       </class> <!-- TestBoAHome -->
+      <class name="TestBoALocationsPage">
+        <methods>
+          <include name="testMapZoomIn"/>
+          <include name="initialize"/>
+          <include name="testMapExitFullScreen"/>
+          <include name="afterEachTestMethod"/>
+          <include name="testBankAtmLogo"/>
+          <include name="testFilterSearch"/>
+          <include name="testDoneFilter"/>
+          <include name="startExtent"/>
+          <include name="testClearFilter"/>
+          <include name="testSearchBtnHolder"/>
+          <include name="testAstoriaLink"/>
+          <include name="testFilterMessage"/>
+          <include name="testInternationLink"/>
+          <include name="testLocationsPlaceHolder"/>
+          <include name="testLocationsTitle"/>
+          <include name="testFilterClicks"/>
+          <include name="testMapFullScreen"/>
+          <include name="setUp"/>
+          <include name="testClickNY"/>
+          <include name="testSearchInput"/>
+          <include name="testMapZoomOut"/>
+        </methods>
+      </class> <!-- TestBoALocationsPage -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->
